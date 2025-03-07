@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import { ContextStorage } from './context/Context'
 import Header from './layout/header/Header'
-import Body from "./pages/body/Body"
+import Home from "./pages/home/Home"
 import Projects from "./pages/projects/Projects"
 import About from "./pages/about/About"
 import Footer from './layout/footer/Footer'
@@ -15,7 +15,7 @@ function App() {
             <ContextStorage>
                 <Header />
                 <Routes>
-                    <Route path='/' element={<Body />}></Route>
+                    <Route path='/' element={<Home />}></Route>
                     <Route path='projects' element={<Projects />}></Route>
                     <Route path='about' element={<About />}></Route>
                     <Route path='*' element={<NotFound404 />} />

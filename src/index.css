@@ -10,6 +10,7 @@
     --c7: #95d5b2;
     --c8: #b7e4c7;
     --c9: #d8f3dc;
+    --e1: #E9762B;
 
     /* Gray Colors */
     --g1: #1c1d20;
@@ -36,6 +37,7 @@
 
     /* General Sizes */
     --header-height: 115px;
+    --page-container: 1400px;
 }
 
 body {
@@ -50,3 +52,17 @@ a {
 p {
     font-size: var(--fsize3);
 }
+
+.container {
+
+    width: 100%;
+    max-width: var(--page-container);
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.code {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 400;
+}
+  

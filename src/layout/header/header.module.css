@@ -8,6 +8,10 @@
     background-color: transparent;
     color: var(--c1);
     height: var(--header-height);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navList {
@@ -38,7 +42,7 @@
 
 .navItem:hover {
 
-    background-color: var(--g9);
+    background-color: var(--c8);
     animation: rotate 4s linear infinite;
 }
 
@@ -60,9 +64,9 @@
     padding: 16px 20px;
     border-radius: 30px;
     animation: none;
-    background: rgb(79,119,45);
-    background: linear-gradient(183deg, rgba(79,119,45,1) 60%, rgba(49,87,44,1) 100%);
-    color: #FFF;
+    background: rgb(27,67,50);
+    background: linear-gradient(183deg, rgba(27,67,50,1) 25%, rgba(45,106,79,1) 90%);
+    color: var(--c9);
     transition: all .4s ease;
 }
 
@@ -110,7 +114,7 @@
 }
 
 .mobileMenuIcon:hover {
-    background-color: var(--g9);
+    background-color: var(--c8);
     animation: rotate 4s linear infinite;
 }
 
