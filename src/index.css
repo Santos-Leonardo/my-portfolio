@@ -1,0 +1,48 @@
+:root {
+
+    /* Enphasis Colors */
+    --c1: #081c15;
+    --c2: #1b4332;
+    --c3: #2d6a4f;
+    --c4: #40916c;
+    --c5: #52b788;
+    --c6: #74c69d;
+    --c7: #95d5b2;
+    --c8: #b7e4c7;
+    --c9: #d8f3dc;
+
+    /* Gray Colors */
+    --g1: #212529;
+    --g2: #343a40;
+    --g3: #495057;
+    --g4: #6c757d;
+    --g5: #adb5bd;
+    --g6: #ced4da;
+    --g7: #dee2e6;
+    --g8: #e9ecef;
+    --g9: #f8f9fa;
+
+    /* Font Sizes */
+    --fsize1: 9px;
+    --fsize2: 12px;
+    --fsize3: 16px;
+    --fsize4: 21px;
+    --fsize5: 28px;
+    --fsize6: 38px;
+    --fsize7: 50px;
+    --fsize8: 68px;
+    --fsize9: 90px;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    color: #111;
+}
+
+a {
+    color: #111;
+}
+
+p {
+    font-size: var(--fsize3);
+}
