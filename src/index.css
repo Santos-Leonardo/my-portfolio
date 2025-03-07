@@ -12,15 +12,16 @@
     --c9: #d8f3dc;
 
     /* Gray Colors */
-    --g1: #212529;
-    --g2: #343a40;
-    --g3: #495057;
-    --g4: #6c757d;
-    --g5: #adb5bd;
-    --g6: #ced4da;
-    --g7: #dee2e6;
-    --g8: #e9ecef;
-    --g9: #f8f9fa;
+    --g1: #1c1d20;
+    --g2: #212529;
+    --g3: #343a40;
+    --g4: #495057;
+    --g5: #6c757d;
+    --g6: #adb5bd;
+    --g7: #ced4da;
+    --g8: #dee2e6;
+    --g9: #e9ecef;
+    --g10: #f8f9fa;
 
     /* Font Sizes */
     --fsize1: 9px;
@@ -32,10 +33,13 @@
     --fsize7: 50px;
     --fsize8: 68px;
     --fsize9: 90px;
+
+    /* General Sizes */
+    --header-height: 115px;
 }
 
 body {
-    font-family: "Nunito", sans-serif;
+    font-family: "Lato", sans-serif;
     color: #111;
 }
 

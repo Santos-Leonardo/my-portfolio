@@ -1,7 +1,7 @@
 .logo {
 
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 0;
     font-size: 14px;
     color: var(--c1);
@@ -17,7 +17,7 @@
     margin: 0 2px;
     font-size: 44px;
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 900;
     transition: all .4s ease-in;
 }
 
