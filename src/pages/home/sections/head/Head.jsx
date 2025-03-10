@@ -2,6 +2,10 @@ import React from 'react'
 
 import styles from './head.module.css'
 import { Context } from '../../../../context/Context'
+import Social from '../../../../components/social/Social';
+import ENVIRONMENT from '../../../../assets/data/environment'
+import arrowRight from '../../../../assets/images/icons/arrow-right-green.svg'
+import Located from '../../../../components/located/Located';
 
 const Head = () => {
 
@@ -18,6 +22,18 @@ const Head = () => {
                         <span><small className={`code ${styles.and}`}>&&</small> UX/UI Designer</span>
                     </h1>
                     <p className={styles.aboutText}>{DICT.IMSENIOR} <strong>{DICT.FIVEYEARS}</strong> {DICT.WITHYEARSOFEXPERIENCE} <strong>{DICT.STACKS}</strong> {DICT.END}</p>
+                </div>
+                 {/* Side Infos */}
+                 <aside className={styles.asideInfosBox}>
+                    <Social />
+                    <Located />
+                </aside>
+                {/* CV Button */}
+                <div className={styles.btnArea}>
+                    <button onClick={() => { window.open(ENVIRONMENT.CV_PATH, '_blank') }} className='btn1'>
+                        {DICT.OPENCV}
+                        <img src={arrowRight} alt="Open" />
+                    </button>
                 </div>
             </div>
         </section>

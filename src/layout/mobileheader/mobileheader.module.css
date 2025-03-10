@@ -8,6 +8,7 @@
     right: 0;
     bottom: 0;
     animation: entrance .6s ease-in-out;
+    z-index: 2;
 }
 
 .mobileMenu.exit {
@@ -96,7 +97,7 @@
 }
 
 .languageBtn:hover {
-    border: 2px solid var(--c4);
+    border: 2px solid var(--c2);
 }
 
 .languageBtn img {

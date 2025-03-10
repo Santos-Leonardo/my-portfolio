@@ -4,7 +4,8 @@ export const EN = {
 
         PROJECTS: 'Projects',
         ABOUTME: 'About me',
-        CONTACT: 'Contact'
+        CONTACT: 'Contact',
+        HOME: 'Home'
     },
 
     head: {
@@ -15,6 +16,13 @@ export const EN = {
         WITHYEARSOFEXPERIENCE: 'of experience building high-impact websites that drive innovation and shape a better world. My expertise spans ',
         STACKS: 'front-end, back-end, and database ',
         END: 'technologies. With startup experience and an entrepreneurial mindset, I translate business requirements into scalable, user-centric solutions.',
+        OPENCV: "Open CV"
+    },
+
+    located: {
+
+        LOCATEDAT: 'Located at',
+        LOCATION: 'Minas Gerais, Brazil',
     },
 
 

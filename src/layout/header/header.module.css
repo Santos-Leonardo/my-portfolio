@@ -57,21 +57,8 @@
     left: -3px;
 }
 
-.navItem.contact {
-
-    width: 100px;
-    height: fit-content;
-    padding: 16px 20px;
-    border-radius: 30px;
-    animation: none;
-    background: rgb(27,67,50);
-    background: linear-gradient(183deg, rgba(27,67,50,1) 25%, rgba(45,106,79,1) 90%);
-    color: var(--c9);
-    transition: all .4s ease;
-}
-
-.navItem.contact:hover {
-    transform: scale(1.02);
+.contact {
+    font-size: var(--fsize2);
 }
 
 .languageBtn {
@@ -90,7 +77,7 @@
 }
 
 .languageBtn:hover {
-    border: 3px solid var(--c3);
+    border: 3px solid var(--c2);
 }
 
 .languageBtn img {

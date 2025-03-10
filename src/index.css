@@ -41,8 +41,10 @@
 }
 
 body {
+
     font-family: "Lato", sans-serif;
     color: #111;
+    overflow-x: hidden;
 }
 
 a {
@@ -53,6 +55,23 @@ p {
     font-size: var(--fsize3);
 }
 
+/* Scroll Bar */
+*::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 5px;
+    background-color: #CCCCCC;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;;
+    background-color: #AAAAAA;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #999999;
+}
+
+/* General App Classes */
 .container {
 
     width: 100%;
@@ -66,3 +85,33 @@ p {
     font-weight: 400;
 }
   
+.btn1 {
+
+    border: 0;
+    border-radius: 30px;
+    padding: 12px 20px;
+    background-color: var(--c2);
+    color: var(--c9);
+    text-transform: uppercase;
+    font-size: var(--fsize3);
+    font-family: "JetBrains Mono", monospace;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all .4s ease;
+}
+
+.btn1:hover {
+    background-color: var(--c1);
+}
+
+.btn1 img {
+    transition: all .4s ease-in-out;
+}
+
+.btn1:hover img {
+    transform: translateX(5px);
+}

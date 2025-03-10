@@ -44,6 +44,7 @@ const MobileHeader = ({ on, setOn }) => {
                 </div>
                 {/* Navigation List */}
                 <ul className={styles.navList}>
+                    <li onClick={() => { closeMenu('/') }} className={`${styles.navItem} ${ activeMenu === '' ? styles.active : ''}`}>{DICT.HOME}</li>
                     <li onClick={() => { closeMenu('projects') }} className={`${styles.navItem} ${ activeMenu === 'projects' ? styles.active : ''}`}>{DICT.PROJECTS}</li>
                     <li onClick={() => { closeMenu('about') }} className={`${styles.navItem} ${ activeMenu === 'about' ? styles.active : ''}`}>{DICT.ABOUTME}</li>
                     <li onClick={() => { closeMenu('contact') }} className={styles.navItem}>{DICT.CONTACT}</li>

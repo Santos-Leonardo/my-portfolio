@@ -24,7 +24,7 @@ const Header = () => {
                 <ul className={styles.navList}>
                     <li>{<NavLink to='projects' className={`${styles.navItem}`}>{DICT.PROJECTS}</NavLink>}</li>
                     <li>{<NavLink to='about' className={`${styles.navItem}`}>{DICT.ABOUTME}</NavLink>}</li>
-                    <li>{<Link to='about' className={`${styles.navItem} ${styles.contact}`}>{DICT.CONTACT}</Link>}</li>
+                    <li>{<Link to='about' className={`btn1 ${styles.contact}`}>{DICT.CONTACT}</Link>}</li>
                     <li onClick={GLOBAL_DATA.changeSystemLanguage}><button className={styles.languageBtn}><img src={src} alt="Flag" /></button></li>
                 </ul>
             </nav>

@@ -1,0 +1,31 @@
+.socialBox {
+    width: fit-content;
+    padding: 4px 2px;
+}
+
+.socialIcon {
+    padding: 6px 2px;
+}
+
+.socialIcon img {
+
+    opacity: .85;
+    width: 36px;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.socialIcon img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+@media (max-width: 550px) {
+
+    .socialBox {
+
+        margin-top: 24px;
+        display: flex;
+        gap: 8px;
+    }
+}
