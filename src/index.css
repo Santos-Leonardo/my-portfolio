@@ -34,10 +34,15 @@
     --fsize7: 50px;
     --fsize8: 68px;
     --fsize9: 90px;
+    --fsize10: 160px;
 
     /* General Sizes */
     --header-height: 115px;
     --page-container: 1400px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {

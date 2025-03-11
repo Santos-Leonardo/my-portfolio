@@ -24,4 +24,16 @@ export const PT = {
         LOCATEDAT: 'Localizado em',
         LOCATION: 'Minas Gerais, Brasil',
     },
+
+    passion: {
+
+        PASSION1: "Sou apaixonado por tecnologia e motivado pelo desejo de contribuir com projetos que ",
+        PASSION2: "impactam positivamente o mundo, ",
+        PASSION3: "criando sistemas que agregam valor aos usuários e contribuem para mudanças significativas em nossa sociedade"    
+    },
+
+    homeProjects: {
+
+        PROJECTS: 'Projetos',
+    },
 }

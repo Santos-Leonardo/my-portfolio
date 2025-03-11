@@ -1,0 +1,11 @@
+.title {
+
+    font-size: var(--fsize10);
+    word-wrap: break-word;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--g5);
+    letter-spacing: 2px;
+    opacity: .3;
+    text-align: right;
+}

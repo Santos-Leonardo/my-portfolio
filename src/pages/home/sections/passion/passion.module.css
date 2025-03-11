@@ -1,0 +1,52 @@
+.section {
+
+    background-color: var(--c9);
+    background-image: url('../../../../assets/images/circle-bg-white.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.content {
+
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.phrase {
+
+    font-size: var(--fsize5);
+    line-height: 40px;
+    font-style: italic;
+}
+
+.picture {
+   max-width: 600px;
+   opacity: .9;
+}
+
+@media (max-width: 1120px) {
+
+    .picture {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 1120px) {
+
+    .phrase {
+        font-size: var(--fsize4);
+    }
+}
+
+@media (max-width: 820px) {
+
+    .content {
+        flex-direction: column;
+        gap: 60px;
+    }
+}

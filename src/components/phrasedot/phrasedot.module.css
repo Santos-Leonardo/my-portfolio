@@ -1,0 +1,14 @@
+.dot {
+    
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--c4);
+}
+
+.onTitle {
+
+    width: 16px;
+    height: 16px;
+}
