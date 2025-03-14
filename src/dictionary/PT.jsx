@@ -29,7 +29,8 @@ export const PT = {
 
         PASSION1: 'Sou apaixonado por tecnologia e motivado pelo desejo de contribuir com projetos que ',
         PASSION2: 'impactam positivamente o mundo, ',
-        PASSION3: 'criando sistemas que agregam valor aos usuários e contribuem para mudanças significativas em nossa sociedade'    
+        PASSION3: 'criando sistemas que agregam valor aos usuários e contribuem para mudanças significativas em nossa sociedade',
+        ABOUTME: 'Sobre mim'
     },
 
     homeProjects: {

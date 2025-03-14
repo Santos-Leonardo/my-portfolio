@@ -22,6 +22,7 @@
     font-size: var(--fsize5);
     line-height: 40px;
     font-style: italic;
+    margin-bottom: 60px;
 }
 
 .picture {
@@ -34,12 +35,16 @@
     .picture {
         max-width: 400px;
     }
-}
-
-@media (max-width: 1120px) {
 
     .phrase {
         font-size: var(--fsize4);
+    }
+}
+
+@media (max-width: 910px) {
+
+    .phrase {
+        margin-bottom: 30px;
     }
 }
 
@@ -48,5 +53,9 @@
     .content {
         flex-direction: column;
         gap: 60px;
+    }
+
+    button {
+        margin: 0 auto;
     }
 }

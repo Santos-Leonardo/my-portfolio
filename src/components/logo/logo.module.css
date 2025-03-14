@@ -3,8 +3,8 @@
     display: inline-flex;
     align-items: center;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 13px;
+    /* font-weight: 700; */
+    font-size: var(--fsize3);
     color: var(--c1);
 }
 
@@ -15,14 +15,13 @@
 .dot {
 
     display: inline-block;
-    margin: 0 2px 14px;
-    font-size: 44px;
-    font-size: 32px;
+    margin-bottom: 14px;
+    font-size: 30px;
     font-weight: 900;
     transition: all .4s ease-in;
 }
 
 .logo:hover .dot {
     color: var(--c4);
-    transform: translateY(-2px);
+    transform: translateY(-3px);
 }

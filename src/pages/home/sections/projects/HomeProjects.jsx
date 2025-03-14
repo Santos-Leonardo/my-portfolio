@@ -10,6 +10,7 @@ import Button from '../../../../components/button/Button';
 const HomeProjects = () => {
 
     const DICT = React.useContext(Context).dictionary.homeProjects;
+    const numberOfProjects = React.useContext(Context).PROJECTS.length;
 
     const navigate = useNavigate();
 
@@ -20,7 +21,7 @@ const HomeProjects = () => {
             <div className={`container ${styles.list}`}>
                 <Projects limit={(window.innerWidth > 700) ? 6 : 4} />
             </div>
-            <Button text={DICT.VIEWALL} onClick={() => {navigate('projects')}} />
+            <Button text={`${DICT.VIEWALL} (${numberOfProjects})`} onClick={() => { navigate('projects')} } />
         </section>
     )
 }
