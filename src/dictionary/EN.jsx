@@ -27,15 +27,15 @@ export const EN = {
 
     passion: {
 
-        PASSION1: "I'm passionate about technology and driven by the desire to contribute to projects that positively ",
-        PASSION2: "impact the world ",
-        PASSION3: "by creating systems that deliver value to users and contribute to meaningful changes in our society"
+        PASSION1: 'I\'m passionate about technology and driven by the desire to contribute to projects that positively ',
+        PASSION2: 'impact the world ',
+        PASSION3: 'by creating systems that deliver value to users and contribute to meaningful changes in our society'
     },
 
     homeProjects: {
 
         PROJECTS: 'Projects',
+        VIEW: 'View',
+        VIEWALL: 'View all'
     },
-
-
 }

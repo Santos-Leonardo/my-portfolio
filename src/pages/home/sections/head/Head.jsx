@@ -4,8 +4,8 @@ import styles from './head.module.css'
 import { Context } from '../../../../context/Context'
 import Social from '../../../../components/social/Social';
 import ENVIRONMENT from '../../../../assets/data/environment'
-import arrowRight from '../../../../assets/images/icons/arrow-right-green.svg'
 import Located from '../../../../components/located/Located';
+import Button from '../../../../components/button/Button';
 
 const Head = () => {
 
@@ -23,17 +23,14 @@ const Head = () => {
                     </h1>
                     <p className={styles.aboutText}>{DICT.IMSENIOR} <strong>{DICT.FIVEYEARS}</strong> {DICT.WITHYEARSOFEXPERIENCE} <strong>{DICT.STACKS}</strong> {DICT.END}</p>
                 </div>
-                 {/* Side Infos */}
-                 <aside className={styles.asideInfosBox}>
+                {/* Side Infos */}
+                <aside className={styles.asideInfosBox}>
                     <Social />
                     <Located />
                 </aside>
                 {/* CV Button */}
                 <div className={styles.btnArea}>
-                    <button onClick={() => { window.open(ENVIRONMENT.CV_PATH, '_blank') }} className='btn1'>
-                        {DICT.OPENCV}
-                        <img src={arrowRight} alt="Open" />
-                    </button>
+                    <Button text={DICT.OPENCV} onClick={() => {window.open(ENVIRONMENT.CV_PATH, '_blank')}} arrow={true} />
                 </div>
             </div>
         </section>

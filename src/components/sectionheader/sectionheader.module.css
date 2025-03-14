@@ -1,11 +1,37 @@
 .title {
 
-    font-size: var(--fsize10);
+    font-size: var(--fsize9);
     word-wrap: break-word;
     font-weight: 900;
     text-transform: uppercase;
     color: var(--g5);
     letter-spacing: 2px;
     opacity: .3;
-    text-align: right;
+    text-align: center;
+    margin: 90px 0;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+
+    .title {
+        font-size: var(--fsize8);
+        margin: 60px 0;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .title {
+        font-size: var(--fsize7);
+        margin: 60px 0;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .title {
+        font-size: var(--fsize6);
+        margin: 60px 0;
+    }
 }
