@@ -22,7 +22,7 @@ export const PT = {
     located: {
 
         LOCATEDAT: 'Localizado em',
-        LOCATION: 'Minas Gerais, Brasil',
+        LOCATION: 'Minas Gerais, Brasil'
     },
 
     passion: {
@@ -38,5 +38,9 @@ export const PT = {
         PROJECTS: 'Projetos',
         VIEW: 'Ver',
         VIEWALL: 'Ver todos'
+    },
+
+    skills: {
+        SKILLS: "Habilidades"
     },
 }

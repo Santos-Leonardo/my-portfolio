@@ -22,7 +22,7 @@ export const EN = {
     located: {
 
         LOCATEDAT: 'Located at',
-        LOCATION: 'Minas Gerais, Brazil',
+        LOCATION: 'Minas Gerais, Brazil'
     },
 
     passion: {
@@ -39,4 +39,10 @@ export const EN = {
         VIEW: 'View',
         VIEWALL: 'View all'
     },
+
+    skills: {
+        SKILLS: "Skills"
+    },
+
+
 }

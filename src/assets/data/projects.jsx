@@ -6,32 +6,32 @@ const PROJECTS = [
         stack: ['angular', 'node', 'python', 'typescript', 'postgresql', 'mysql', 'html', 'css', 'git']
     },
     {
-        name: 'GAIA',
+        name: 'GAIA2',
         shortName: 'gaia',
         stack: ['angular', 'node', 'python', 'typescript', 'postgresql', 'mysql', 'html', 'css', 'git']
     },
     {
-        name: 'GAIA',
+        name: 'GAIA3',
         shortName: 'gaia',
         stack: ['angular', 'node', 'python', 'typescript', 'postgresql', 'mysql', 'html', 'css', 'git']
     },
     {
-        name: 'GAIA',
+        name: 'GAIA4',
         shortName: 'gaia',
         stack: ['angular', 'node', 'python', 'typescript', 'postgresql', 'mysql', 'html', 'css', 'git']
     },
     {
-        name: 'GAIA',
+        name: 'GAIA5',
         shortName: 'gaia',
         stack: ['angular', 'node', 'python', 'typescript', 'postgresql', 'mysql', 'html', 'css', 'git']
     },
     {
-        name: 'GAIA',
+        name: 'GAIA6',
         shortName: 'gaia',
         stack: ['angular', 'node', 'python', 'typescript', 'postgresql', 'mysql', 'html', 'css', 'git']
     },
     {
-        name: 'GAIA',
+        name: 'GAIA7',
         shortName: 'gaia',
         stack: ['angular', 'node', 'python', 'typescript', 'postgresql', 'mysql', 'html', 'css', 'git']
     },

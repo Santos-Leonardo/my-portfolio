@@ -4,6 +4,7 @@ import styles from "./home.module.css"
 import Head from './sections/head/Head';
 import Passion from './sections/passion/Passion';
 import HomeProjects from './sections/projects/HomeProjects';
+import Skills from './sections/skills/Skills';
 
 const Home = () => {
 
@@ -12,6 +13,7 @@ const Home = () => {
             <Head />
             <Passion />
             <HomeProjects />
+            <Skills />
         </main>
     )
 }
