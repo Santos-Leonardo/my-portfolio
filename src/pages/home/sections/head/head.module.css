@@ -1,8 +1,8 @@
 .section {
 
     padding-top: var(--header-height);
-    background: rgb(216,243,220);
-    background: linear-gradient(183deg, rgba(216,243,220,1) 2%, rgba(255,255,255,1) 55%);
+    background: rgb(216, 243, 220);
+    background: linear-gradient(183deg, rgba(216, 243, 220, 1) 2%, rgba(255, 255, 255, 1) 55%);
     height: 100vh;
     max-height: 800px;
 }
@@ -10,15 +10,15 @@
 .headContent {
 
     padding-top: 60px;
-    background-image: url('../../../../assets/images/stack-bg.png');
+    /* background-image: url('../../../../assets/images/stack-bg.png');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: right;
+    background-size: contain; */
     position: relative;
 }
 
 .introText {
-    max-width: 60%;
+    max-width: 90%;
 }
 
 .name {
@@ -61,6 +61,7 @@
     font-size: var(--fsize3);
     color: var(--g4);
     line-height: 22px;
+    max-width: 70%;
 }
 
 .btnArea {
@@ -143,7 +144,7 @@
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 580px) {
 
     .headContent {
         padding-left: 20px;

@@ -27,7 +27,7 @@
 
 .list li img {
 
-    width: 70px;
+    width: 60px;
     display: block;
 }
 
@@ -47,7 +47,7 @@
     text-align: center;
     width: fit-content;
     width: 220px;
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;

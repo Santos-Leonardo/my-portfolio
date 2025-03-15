@@ -11,7 +11,7 @@ export const PT = {
     head: {
 
         HELLO: "Olá, eu sou o",
-        IMSENIOR: 'Sou um Engenheiro de Software com ',
+        IMSENIOR: 'Sou um desenvolvedor sênior com ',
         FIVEYEARS: '5+ anos ',
         WITHYEARSOFEXPERIENCE: 'de experiência na criação de sites que impulsionam a inovação e moldam um mundo melhor. Minha experiência abrange tecnologias de ',
         STACKS: 'front-end, back-end e banco de dados. ',
@@ -42,5 +42,20 @@ export const PT = {
 
     skills: {
         SKILLS: "Habilidades"
+    },
+
+    services: {
+
+        SERVICES: 'Serviços',
+        WEBAPPS: 'Aplicativos Web Escaláveis',
+        DESC1: 'Do conceito à implantação, crio aplicativos web de alto desempenho, seguros e fáceis de usar que crescem com o seu negócio',
+        OUTPUTS1: 'Sites, E-commerces, Landing pages, Web apps, Painéis de administração personalizados, Plataformas SaaS, Ferramentas internas, Dashboards, CMS, Sistemas de relatórios automatizados',
+        API: 'Design de API & Integrações',
+        DESC2: 'APIs eficientes e bem documentadas para conectar seus sistemas, serviços de terceiros e aplicativos móveis',
+        OUTPUTS2: 'Implementação de servidores, APIs REST, Integrações de pagamento, Integrações de API externa, Sistemas de dados em tempo real',
+        DATABASES: 'Arquitetura de banco de dados',
+        DESC3: 'Gerenciamento de dados confiável, escalável e seguro, adaptado para desempenho e crescimento',
+        OUTPUTS3: 'Criação e gerenciamento de banco de dados, Conexões de banco de dados, Pipelines de Big Data, Data warehouse, Análises em tempo real',
+        GETINTOUCH: 'Entre em contato'
     },
 }

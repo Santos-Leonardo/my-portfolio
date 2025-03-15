@@ -1,0 +1,26 @@
+.section {
+    padding: 1px 20px 90px;
+    background-color: var(--g9);
+}
+
+.serviceList {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.section button {
+    margin: 0 auto;
+}
+
+/* Responsive */
+@media (max-width: 1127px) {
+
+    .serviceList {
+        align-items: center;
+    }
+}

@@ -1,0 +1,55 @@
+.service {
+
+    background-color: #FFF;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 8px;
+    padding: 30px 20px;
+    color: var(--c1);
+}
+
+.service:hover .serviceIcon {
+    transform: scale(1.02);
+}
+
+.service:hover .serviceTitle {
+    color: var(--c3);
+}
+
+.serviceIcon {
+
+    width: 50px;
+    margin: 0 auto 20px;
+    transition: all .4s ease-in;
+}
+
+.serviceTitle {
+
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: all .4s ease-in;
+}
+
+.serviceDescription {
+
+    text-align: center;
+    font-size: var(--fsize2);
+    color: var(--g5);
+    margin-bottom: 30px;
+}
+
+.serviceOutputs {
+
+    list-style: disc;
+    list-style-position: inside;
+    font-size: var(--fsize2);
+}
+
+.serviceOutputs li {
+    margin-bottom: 12px;
+}
+
+.serviceOutputs li::marker {
+    color: var(--c4);
+}

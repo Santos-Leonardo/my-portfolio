@@ -18,7 +18,7 @@ const Head = () => {
                 <div className={styles.introText}>
                     <h2 className={styles.name}>{DICT.HELLO} Leonardo Santos</h2>
                     <h1 className={styles.work}>
-                        <span className={styles.fullStack}>Full-Stack Developer</span>
+                        <span className={styles.fullStack}>Full-Stack Software Engineer</span>
                         <span><small className={`code ${styles.and}`}>&&</small> UX/UI Designer</span>
                     </h1>
                     <p className={styles.aboutText}>{DICT.IMSENIOR} <strong>{DICT.FIVEYEARS}</strong> {DICT.WITHYEARSOFEXPERIENCE} <strong>{DICT.STACKS}</strong> {DICT.END}</p>
