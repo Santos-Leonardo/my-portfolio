@@ -1,0 +1,126 @@
+.experience {
+
+    border-right: 5px solid var(--g8);
+    padding: 30px;
+    background-color: var(--g10);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    transition: all .4s ease;
+}
+
+.experience:hover {
+    background-color: var(--g9);
+}
+
+:global(.odd) {
+
+    border: 0;
+    border-left: 5px solid var(--g8);
+    margin-right: 5px;
+    text-align: left;
+    width: 50%;
+    margin-left: auto;
+    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cover {
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+
+    width: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.position {
+    color: var(--c1);
+}
+
+.companyInfo {
+
+    font-size: var(--fsize2);
+    margin-top: 12px;
+    opacity: .9;
+}
+
+.dates {
+
+    font-size: var(--fsize2);
+    color: var(--g4);
+    margin-top: 4px;
+}
+
+/* List */
+.achievements {
+
+    margin-left: 67px;
+    list-style: disc;
+    list-style-position: inside;
+    font-size: var(--fsize2);
+    max-height: 0;
+    overflow: hidden;
+    transition: all .9s ease-in-out;
+    opacity: 0;
+}
+
+.achievements.show {
+
+    margin-top: 30px;
+    max-height: 800px;
+    opacity: 1;
+}
+
+.achievements li {
+    margin-bottom: 16px;
+    color: var(--g4);
+}
+
+.achievements li::marker {
+    color: var(--c4);
+}
+
+@keyframes expandHeight {
+
+    from {
+        height: 0;
+    }
+
+    to {
+        height: fit-content;
+    }
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+
+    .logo {
+        width: 40px;
+    }
+
+    .achievements {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .timelineWrapper {
+        display: block;
+    }
+
+    .experience {
+        border: 0;
+        margin-bottom: 20px;
+    }
+
+    :global(.odd) {
+        width: 100%;
+    }
+}

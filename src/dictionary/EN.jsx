@@ -55,7 +55,13 @@ export const EN = {
         OUTPUTS2: 'Servers implementation, REST APIs, Payment integrations, External API integrations, Real-time data systems',
         DATABASES: 'Database Architecture',
         DESC3: 'Reliable, scalable, and secure data management tailored for performance and growth',
-        OUTPUTS3: 'Database creation and management, Database connections, Big data pipelines, Data warehouse, Real-time analytics',
+        OUTPUTS3: 'Database creation and management, Database connections, Big data pipelines from scratch, Data warehouse, Real-time analytics',
         GETINTOUCH: 'Get in touch'
+    },
+
+    experience: {
+
+        EXPERIENCE: "Experience",
+
     },
 }

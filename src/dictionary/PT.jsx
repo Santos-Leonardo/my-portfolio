@@ -55,7 +55,13 @@ export const PT = {
         OUTPUTS2: 'Implementação de servidores, APIs REST, Integrações de pagamento, Integrações de API externa, Sistemas de dados em tempo real',
         DATABASES: 'Arquitetura de banco de dados',
         DESC3: 'Gerenciamento de dados confiável, escalável e seguro, adaptado para desempenho e crescimento',
-        OUTPUTS3: 'Criação e gerenciamento de banco de dados, Conexões de banco de dados, Pipelines de Big Data, Data warehouse, Análises em tempo real',
+        OUTPUTS3: 'Criação e gerenciamento de banco de dados, Conexões de banco de dados, Pipelines de Big Data do zero, Data warehouse, Análises em tempo real',
         GETINTOUCH: 'Entre em contato'
+    },
+
+    experience: {
+
+        EXPERIENCE: "Experiência",
+
     },
 }
