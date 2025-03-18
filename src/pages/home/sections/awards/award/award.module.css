@@ -1,0 +1,37 @@
+.item {
+
+    padding: 20px;
+    background-color: #FFF;
+    transition: all .6s ease;
+    border-radius: 8px;
+}
+
+.item:hover {
+    background-color: var(--g10);
+    transform: scale(1.02);
+}
+
+.head {
+
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    margin-bottom: 16px;
+}
+
+.head img {
+    width: 55px;
+    border-radius: 50%;
+}
+
+.issued {
+    font-size: var(--fsize2);
+    margin-top: 4px;
+}
+
+.desc {
+    
+    opacity: .85;
+    line-height: 20px;
+    font-size: var(--fsize2);
+}

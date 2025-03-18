@@ -61,7 +61,11 @@ export const PT = {
 
     experience: {
 
-        EXPERIENCE: "Experiência",
+        EXPERIENCE: "Experiência"
+    },
 
+    awards: {
+
+        AWARDS: "Prêmios"
     },
 }

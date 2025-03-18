@@ -69,6 +69,24 @@ const EXPERIENCES = [
         ]
     },
     {
+        companyName: 'Polytechnic Institute of Portalegre',
+        companyWesite: 'https://www.ipportalegre.pt/pt/',
+        companylogo: 'ipp.png',
+        contractType: 'Volunteer',
+        dates: 'Apr 2022 - Apr 2022',
+        location: 'Portalegre, Portalegre, Portugal',
+        workType: 'On-site',
+        position: 'Team Manager',
+        achievementsEN: [
+            
+            'Served as the Brazil team leader during the Intercultural Week, taking charge of coordinating the team, delegating tasks, and planning activities. Responsibilities included organizing and delivering events focused on gastronomy, literature, and artistic expression, as well as providing customer service. The event celebrated cultural diversity through engaging and immersive experiences.'
+        ],
+        achievementsPT: [
+            
+            'Atuou como líder da equipe do Brasil durante a Semana Intercultural, assumindo a coordenação da equipe, delegando tarefas e planejando atividades. As responsabilidades incluíam organizar e entregar eventos focados em gastronomia, literatura e expressão artística, bem como fornecer atendimento ao cliente. O evento celebrou a diversidade cultural por meio de experiências envolventes e imersivas.'
+        ]
+    },
+    {
         companyName: 'ATAALO',
         companyWesite: 'https://www.ataalo.com/',
         companylogo: 'ataalo.png',
