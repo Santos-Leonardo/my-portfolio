@@ -7,6 +7,7 @@ import Skills from './sections/skills/Skills';
 import Services from './sections/services/Services';
 import Experiences from './sections/experience/Experiences';
 import Awards from './sections/awards/Awards';
+import Recomendations from './sections/recomendations/Recomendations';
 
 const Home = () => {
 
@@ -19,6 +20,7 @@ const Home = () => {
             <Skills />
             <Experiences />
             <Awards />
+            <Recomendations />
         </main>
     )
 }
