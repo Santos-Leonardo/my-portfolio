@@ -8,6 +8,7 @@ import Services from './sections/services/Services';
 import Experiences from './sections/experience/Experiences';
 import Awards from './sections/awards/Awards';
 import Recomendations from './sections/recomendations/Recomendations';
+import Education from './sections/education/Education';
 
 const Home = () => {
 
@@ -21,6 +22,7 @@ const Home = () => {
             <Experiences />
             <Awards />
             <Recomendations />
+            <Education />
         </main>
     )
 }

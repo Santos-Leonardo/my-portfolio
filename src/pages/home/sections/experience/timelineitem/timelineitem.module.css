@@ -6,10 +6,28 @@
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     transition: all .4s ease;
+    position: relative;
 }
 
 .experience:hover {
     background-color: var(--g9);
+}
+
+.experience::before {
+
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: var(--g7);
+    border-radius: 50%;
+    position: absolute;
+    top: 62px;
+    left: -6px;
+}
+
+.experience:nth-child(odd)::before {
+    right: -6px;
+    left: auto;
 }
 
 :global(.odd) {
@@ -120,7 +138,23 @@
         margin-bottom: 20px;
     }
 
+    .experience::before {
+        display: none;
+    }
+
     :global(.odd) {
         width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .cover {
+        flex-direction: column;
+    }
+
+    .cover h3 {
+        font-size: var(--fsize3);
+        text-align: center;
     }
 }

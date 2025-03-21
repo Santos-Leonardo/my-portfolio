@@ -68,4 +68,16 @@ export const EN = {
 
         AWARDS: "Awards"
     },
+
+    education: {
+
+        EDUCATION: 'Education',
+        SEEALLCOURSES: 'All certifications',
+        IPPDEGREE: "Software Engineering Degree",
+        IPPNAME: 'Polytechnic Institute of Portalegre',
+        RZESZOWNAME: 'University of Rzeszów',
+        CERTIFICATION1: 'Full-Stack Development Specialization (436 hours)',
+        CERTIFICATION2: 'Front End & UX/UI Design Specialization (262 hours)',
+        CERTIFICATION3: 'SEO Certification (19 hours)'
+    },
 }

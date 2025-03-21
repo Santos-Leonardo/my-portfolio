@@ -1,11 +1,10 @@
 .section {
 
-    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px 30px;
+    padding: 120px 30px 90px;
     background-image: url('../../../../assets/images/circle-bg-green.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -106,6 +105,10 @@
 
 /* Responsive */
 @media (max-width: 540px) {
+
+    .section {
+        padding: 30px 15px;
+    }
 
     .recomendation blockquote {
         font-size: var(--fsize4);

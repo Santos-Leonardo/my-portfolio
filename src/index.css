@@ -89,3 +89,11 @@ p {
     font-family: "JetBrains Mono", monospace;
     font-weight: 400;
 }
+
+/* Responsive */
+@media (max-width: 500px) {
+
+    .container {
+        padding: 15px;
+    }
+}

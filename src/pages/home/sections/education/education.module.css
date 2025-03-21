@@ -1,0 +1,73 @@
+.section {
+    padding: 1px 30px 90px;
+    background-color: var(--g10);
+}
+
+.educations {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.degree {
+
+    padding: 20px;
+    transition: all .6s ease;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.degree:hover {
+    transform: scale(1.02);
+    background-color: var(--g9);
+}
+
+.head {
+
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.head img {
+    width: 55px;
+    border-radius: 50%;
+}
+
+.head h3 {
+    font-size: var(--fsize4);
+}
+
+.head h3.course {
+    font-size: var(--fsize3);
+}
+
+.issued {
+    font-size: var(--fsize2);
+    margin-top: 8px;
+}
+
+.section button {
+
+    max-width: none;
+    width: fit-content;
+    margin: 60px auto 0;
+}
+
+@media (max-width: 550px) {
+
+    .section {
+        padding: 30px 0;
+    }
+
+    .head {
+        flex-direction: column;
+    }
+
+    .degree {
+        font-size: var(--fsize3);
+        text-align: center;
+    }
+}

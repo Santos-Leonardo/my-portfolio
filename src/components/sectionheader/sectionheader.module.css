@@ -28,7 +28,7 @@
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
 
     .title {
         font-size: var(--fsize6);
