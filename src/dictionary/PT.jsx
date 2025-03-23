@@ -81,5 +81,9 @@ export const PT = {
         CERTIFICATION3: 'Certificação em SEO (19 horas)'
     },
 
+    footer: {
 
+        LETSWORKTOGETHER: 'Vamos trabalhar juntos',
+        LOCATION: 'Minas Gerais, Brasil'
+    },
 }

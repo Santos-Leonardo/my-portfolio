@@ -80,4 +80,11 @@ export const EN = {
         CERTIFICATION2: 'Front End & UX/UI Design Specialization (262 hours)',
         CERTIFICATION3: 'SEO Certification (19 hours)'
     },
+
+    footer: {
+
+        LETSWORKTOGETHER: 'Let\'s work together',
+        LOCATION: 'Minas Gerais, Brazil'
+    },
+    
 }

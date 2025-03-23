@@ -3,12 +3,12 @@ import React from 'react'
 import styles from './experiences.module.css'
 import SectionHeader from '../../../../components/sectionheader/SectionHeader';
 import { Context } from '../../../../context/Context'
-import EXPERIENCES from '../../../../assets/data/EXPERIENCES';
 import TimelineItem from './timelineitem/TimelineItem';
 
 const Experiences = () => {
 
     const DICT = React.useContext(Context).dictionary.experience;
+    const { EXPERIENCES } = React.useContext(Context);
     
     return (
         <section className={styles.section}>

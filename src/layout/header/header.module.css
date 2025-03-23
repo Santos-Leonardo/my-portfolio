@@ -12,6 +12,22 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 2;
+    border-radius: 60px;
+    transition: all .6s linear;
+}
+
+.header.fixed {
+
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    background-color: #FFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 70px !important;
+    width: auto;
+    max-width: calc(100% - 60px);
 }
 
 .navList {
@@ -177,5 +193,17 @@
 
     .mobileMenuIcon {
         display: flex;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .header.fixed {
+
+        max-width: calc(100% - 40px);
+        left: 20px;
+        right: 20px;
+        height: 60px !important;
+        padding: 8px 14px;
     }
 }

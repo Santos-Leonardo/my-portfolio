@@ -33,7 +33,9 @@ const MobileHeader = ({ on, setOn }) => {
             setOn(false);          
         }, 600);
 
-        if (route) navigate(route);
+        if (route) {
+            (route === 'contact') ? GLOBAL_DATA.footerRef.current?.scrollIntoView({ behavior: "smooth" }) : navigate(route);
+        } 
     }
 
     return on

@@ -1,13 +1,14 @@
 import React from 'react'
 
 import styles from './recomendations.module.css'
-import RECOMENDATIONS from '../../../../assets/data/RECOMENDATIONS';
-
 import linkedinPath from '../../../../assets/images/icons/linkedin.png'
 import arrowRight from '../../../../assets/images/icons/arrow-right-black.svg'
 import arrowLeft from '../../../../assets/images/icons/arrow-left-black.svg'
+import { Context } from '../../../../context/Context'
 
 const Recomendations = () => {
+
+    const { RECOMENDATIONS } = React.useContext(Context);
 
     const [index, setIndex] = React.useState(0);
     const [fade, setFade] = React.useState(true);

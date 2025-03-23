@@ -3,12 +3,12 @@ import React from 'react'
 import styles from './awards.module.css'
 import SectionHeader from '../../../../components/sectionheader/SectionHeader';
 import { Context } from '../../../../context/Context'
-import AWARDS from '../../../../assets/data/AWARDS';
 import Award from './award/Award';
 
 const Awards = () => {
 
     const DICT = React.useContext(Context).dictionary.awards;
+    const { AWARDS } = React.useContext(Context);
     
     return (
         <section className={styles.section}>

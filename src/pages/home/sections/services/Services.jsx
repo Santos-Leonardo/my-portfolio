@@ -1,5 +1,4 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
 
 import styles from './services.module.css'
 import { Context } from '../../../../context/Context'
@@ -10,7 +9,7 @@ import Button from '../../../../components/button/Button'
 const Services = () => {
 
     const DICT = React.useContext(Context).dictionary.services;
-    const navigator = useNavigate();
+    const footerRef = React.useContext(Context).footerRef;
 
     return (
         <section className={styles.section}>
@@ -23,7 +22,7 @@ const Services = () => {
                 <Service icon={'databases.png'} title={DICT.DATABASES} desc={DICT.DESC3} outputsList={DICT.OUTPUTS3} />
             </ul>
             {/* CTA Button */}
-            <div><Button text={DICT.GETINTOUCH} onClick={() => { navigator('#contact') }} /></div>
+            <div><Button text={DICT.GETINTOUCH} onClick={() => { footerRef.current?.scrollIntoView({ behavior: "smooth" }); }} /></div>
         </section>
     )
 }
