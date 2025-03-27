@@ -1,0 +1,43 @@
+.topWrapper {
+
+    z-index: 10;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--c8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation: appear .5s ease-in-out;
+    transition: all .4s ease;
+}
+
+.topWrapper:hover {
+    background-color: var(--c7);
+}
+
+@keyframes appear {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .topWrapper {
+
+        right: 20px;
+        bottom: 20px;
+        width: 30px;
+        height: 30px;
+    }
+}

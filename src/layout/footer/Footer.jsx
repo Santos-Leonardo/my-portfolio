@@ -22,8 +22,8 @@ const Footer = () => {
                 <li><a className={styles.link} href="tel:+5532985129223" target='_blank'>+55 32 98512-9223</a></li>
                 <li className={styles.contactLogos}>
                     <a href="https://wa.me/message/JEDJKLKA3A64F1" target='_blank'><img src={whatsappLogoPath} alt="Logo" /></a>
-                    <a href="https://www.linkedin.com/in/leonardo-santos-dev/" target='_blank'><img src={linkedinLogoPath} alt="Logo" /></a>
-                    <a href="https://github.com/Santos-Leonardo" target='_blank'><img src={githubLogoPath} alt="Logo" /></a>
+                    <a href="https://www.linkedin.com/in/leonardo-santos-dev/" target='_blank' title='linkedin.com/in/leonardo-santos-dev'><img src={linkedinLogoPath} alt="Logo" /></a>
+                    <a href="https://github.com/Santos-Leonardo" target='_blank' title='github.com/Santos-Leonardo'><img src={githubLogoPath} alt="Logo" /></a>
                 </li>
             </ul>
             <div className={styles.footerBottom}>

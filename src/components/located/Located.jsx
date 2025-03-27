@@ -23,7 +23,7 @@ const Located = () => {
             onTouchEnd={handleLeave}
             className={`${styles.locatedBox}`}
         >
-            {(onHover || window.innerWidth <= 550) &&
+            {(onHover || window.innerWidth <= 580) &&
                 (<div >
                     <p className={styles.locatedAt}>{DICT.LOCATEDAT}</p>
                     <p>{DICT.LOCATION}</p>

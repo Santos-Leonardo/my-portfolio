@@ -2,6 +2,7 @@ import React from 'react'
 
 import styles from './timelineitem.module.css'
 import { Context } from '../../../../../context/Context'
+import arrowDown from '../../../../../assets/images/icons/arrow-down-black.svg'
 
 const TimelineItem = ({ experience, type }) => {
 
@@ -19,6 +20,7 @@ const TimelineItem = ({ experience, type }) => {
                     <p className={styles.dates}>{experience.dates} - {experience.contractType}</p>
                 </div>
             </div>
+            <img className={styles.arrowExpand} src={arrowDown} alt="Expand" />
             {/* Achievements */}
             <ul className={`${styles.achievements} ${onOver ? styles.show : ''}`}>
                 {experience[desc].map((achievement, i) => {

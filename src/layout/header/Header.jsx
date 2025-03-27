@@ -1,13 +1,14 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'
 
 import styles from "./header.module.css"
-import Logo from '../../components/logo/Logo';
-import { Context } from '../../context/Context';
+import Logo from '../../components/logo/Logo'
+import { Context } from '../../context/Context'
 import euaFlag from '../../assets/images/icons/eua-flag.png'
 import brazilFlag from '../../assets/images/icons/brazil-flag.png'
-import MobileHeader from '../mobileheader/MobileHeader';
-import Button from '../../components/button/Button';
+import MobileHeader from '../mobileheader/MobileHeader'
+import Button from '../../components/button/Button'
+import useScroll from '../../hooks/useScroll'
 
 const Header = () => {
 
@@ -21,16 +22,9 @@ const Header = () => {
 
     const [isMobileMenuActive, setIsMobileMenuActive] = React.useState(false);
     const [fixed, setFixed] = React.useState(false);
+    const { y } = useScroll();
 
-    React.useEffect(() => {
-
-        const handleScroll = () => { setFixed(window.scrollY > 10); };
-    
-        window.addEventListener('scroll', handleScroll);
-    
-        return () => { window.removeEventListener('scroll', handleScroll); };
-
-    }, []);    
+    React.useEffect(() => { setFixed(y > 15); }, [y]);    
 
     return (
         <header className={`container ${styles.header} ${fixed ? styles.fixed : ''}`}>

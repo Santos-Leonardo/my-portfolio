@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "start": "vite --open",
@@ -10,8 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "color-thief-browser": "^2.0.2",
-    "locomotive-scroll": "^4.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.2.0"

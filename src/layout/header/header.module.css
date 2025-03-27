@@ -14,20 +14,27 @@
     right: 0;
     z-index: 2;
     border-radius: 60px;
-    transition: all .6s linear;
+    transition: all .4s linear;
+    max-width: calc(100% - 60px);
+}
+
+:global(.container).header {
+    padding: 0;
 }
 
 .header.fixed {
 
     position: fixed;
-    top: 30px;
+    top: 15px;
     left: 30px;
     right: 30px;
-    background-color: #FFF;
+    background-color: rgba(255, 255, 255, .93);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     height: 70px !important;
     width: auto;
     max-width: calc(100% - 60px);
+    backdrop-filter: blur(10px);
+    padding: 0 30px;
 }
 
 .navList {
@@ -196,8 +203,8 @@
     }
 }
 
-@media (max-width: 500px) {
-
+@media (max-width: 580px) {
+    
     .header.fixed {
 
         max-width: calc(100% - 40px);
@@ -205,5 +212,6 @@
         right: 20px;
         height: 60px !important;
         padding: 8px 14px;
+        margin: 0;
     }
 }

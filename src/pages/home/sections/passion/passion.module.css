@@ -1,7 +1,7 @@
 .section {
 
     background-color: var(--c9);
-    background-image: url('../../../../assets/images/circle-bg-white.png');
+    background-image: url('../../../../assets/images/circle-bg-white.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -56,8 +56,15 @@
         gap: 60px;
         padding-bottom: 0;
     }
+}
+
+@media (max-width: 500px) {
+
+    .phrase {
+        text-align: center;
+    }
 
     button {
-        margin: 0 auto;
+        margin: 0 auto !important;
     }
 }

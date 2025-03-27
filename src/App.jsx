@@ -8,6 +8,7 @@ import Project from "./pages/project/Project"
 import About from "./pages/about/About"
 import Footer from './layout/footer/Footer'
 import NotFound404 from "./pages/notfound404/NotFound404"
+import GoToTop from './components/gototop/GoToTop'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
                 </Routes>
                 <Footer />
             </ContextStorage>
+            <GoToTop />
         </BrowserRouter>
     )
 }

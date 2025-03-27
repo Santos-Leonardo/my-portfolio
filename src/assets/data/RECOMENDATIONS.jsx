@@ -14,9 +14,9 @@ const RECOMENDATIONS = [
     },
     {
         person: 'Karla Almeida',
-        position: 'Investidor',
-        linkedin: 'https://www.linkedin.com/in/beatriz-correat/',
-        phrase: 'He is highly motivated and independent in his work, yet also an outstanding team player who contributes a lot.'
+        position: 'Web Developer',
+        linkedin: 'https://www.linkedin.com/in/karla-carvalho-almeida/',
+        phrase: 'Leonardo is an outstanding full-stack software engineer: smart, driven, and highly skilled. Beyond his technical skills, Leonardo is collaborative and always willing to help. When we worked together, his calm and supportive approach made a great difference in my projects, even when they weren’t his responsibility. He is truly a well-rounded professional.'
     },
 ];
 

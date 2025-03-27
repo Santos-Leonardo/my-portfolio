@@ -104,6 +104,17 @@
     color: var(--c4);
 }
 
+.arrowExpand {
+
+    opacity: .5;
+    margin: 15px auto 0;
+    transition: all 1.3s ease;
+}
+
+.experience:hover .arrowExpand {
+    transform: rotate(180deg);
+}
+
 @keyframes expandHeight {
 
     from {

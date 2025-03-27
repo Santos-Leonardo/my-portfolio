@@ -11,19 +11,19 @@ const EXPERIENCES = [
         position: 'Senior Software Enginner',
         achievementsEN: [
             
-            'Led the development of a cutting-edge GIS web app for environmental analysis and real-time data visualization, optimizing large geospatial datasets for faster insights. Adopted by 100+ environmental scientists and policymakers, the project was recognized as revolutionary by the federal agency IBAMA.',
-            'Developed a pioneering system to assess human impact on whale and dolphin species along Brazil\'s coast, influencing 2+ government regulations and helping 10+ maritime companies optimize their routes.',
+            'Led the development of a cutting-edge GIS web app for environmental analysis and real-time data visualization, optimizing large geospatial datasets for faster insights. Adopted by dozens of environmental scientists and policymakers, the project was recognized as revolutionary by the federal agency IBAMA.',
+            'Developed a pioneering system to assess human impact on whale and dolphin species along Brazil\'s coast. With its potential to influence government policies and help several maritime companies optimize their routes, this system represents a critical step forward in mitigating human activities on marine life.',
             'Built a real-time data transmission system that accelerated scientific operations, reducing data processing time by over 60 days.',
             'Integrated a machine learning algorithm into a web app to classify Brazilian coastal dolphins - an innovation in the Brazilian market that reduced manual identification time from days to minutes.',
-            'Designed and built a scalable API to support the front-end application, ensuring performance and integration. The system now handles 5 different projects, showcasing its robustness and scalability.'
+            'Architected and built a scalable API, ensuring performance and integration. The server now handles 5 different projects, showcasing its robustness and scalability.'
         ],
         achievementsPT: [
             
-            'Liderou o desenvolvimento de um aplicativo web GIS de ponta para análise ambiental e visualização de dados em tempo real, otimizando grandes conjuntos de dados geoespaciais para insights mais rápidos. Adotado por 100 cientistas ambientais e formuladores de políticas, o projeto foi reconhecido como revolucionário pela agência federal IBAMA.',
-            'Desenvolveu um sistema pioneiro para avaliar o impacto das atividades humanas em espécies de baleias e golfinhos ao longo da costa brasileira, influenciando mais de 2 regulamentações governamentais e ajudando mais de 10 empresas marítimas a otimizar suas rotas.',
+            'Liderou o desenvolvimento de um aplicativo web GIS de ponta para análise ambiental e visualização de dados em tempo real, otimizando grandes conjuntos de dados geoespaciais para insights mais rápidos. Adotado por dezenas de cientistas ambientais e formuladores de políticas, o projeto foi reconhecido como revolucionário pela agência federal IBAMA.',
+            'Desenvolveu um sistema pioneiro para avaliar o impacto das atividades humanas em espécies de baleias e golfinhos ao longo da costa brasileira. Com seu potencial para influenciar políticas governamentais e ajudar diversas empresas marítimas a otimizar suas rotas, esse sistema representa um passo crítico na mitigação das atividades humanas na vida marinha.',
             'Construiu um sistema de transmissão de dados em tempo real que acelerou as operações científicas, reduzindo o tempo de processamento de dados em mais de 60 dias.',
             'Integrou um algoritmo de aprendizado de máquina em um aplicativo da web para classificar golfinhos costeiros brasileiros - uma inovação no mercado brasileiro que reduziu o tempo de identificação manual de dias para minutos.',
-            'Projetou e construiu uma API escalável para dar suporte aos aplicativos front-end, garantindo desempenho e integração. O sistema agora lida com 5 projetos diferentes, demonstrando sua robustez e escalabilidade.'
+            'Arquitetou e construiu uma API escalável, garantindo desempenho e integração. O servidor agora lida com 5 projetos diferentes, demonstrando sua robustez e escalabilidade.'
         ]
     },
     {
