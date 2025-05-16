@@ -18,8 +18,8 @@ const HomeProjects = () => {
         <section className={styles.projectsSection}>
             <SectionHeader title={DICT.PROJECTS} />
             {/* Projects List */}
-            <div className={`container ${styles.list}`}>
-                <Projects limit={(window.innerWidth > 700) ? 6 : 4} />
+            <div className={`${styles.list}`}>
+                <Projects limit={(window.innerWidth > 700) ? 4 : 3} />
             </div>
             <Button text={`${DICT.VIEWALL} (${numberOfProjects})`} onClick={() => { navigate('projects')} } />
         </section>

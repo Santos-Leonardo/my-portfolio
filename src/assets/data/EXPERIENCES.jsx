@@ -8,22 +8,24 @@ const EXPERIENCES = [
         dates: 'Feb 2024 - present',
         location: 'Juiz de Fora, Minas Gerais, Brazil',
         workType: 'On-site',
-        position: 'Senior Software Enginner',
+        position: 'Full-stack Software Enginner',
         achievementsEN: [
             
-            'Led the development of a cutting-edge GIS web app for environmental analysis and real-time data visualization, optimizing large geospatial datasets for faster insights. Adopted by dozens of environmental scientists and policymakers, the project was recognized as revolutionary by the federal agency IBAMA.',
-            'Developed a pioneering system to assess human impact on whale and dolphin species along Brazil\'s coast. With its potential to influence government policies and help several maritime companies optimize their routes, this system represents a critical step forward in mitigating human activities on marine life.',
-            'Built a real-time data transmission system that accelerated scientific operations, reducing data processing time by over 60 days.',
-            'Integrated a machine learning algorithm into a web app to classify Brazilian coastal dolphins - an innovation in the Brazilian market that reduced manual identification time from days to minutes.',
-            'Architected and built a scalable API, ensuring performance and integration. The server now handles 5 different projects, showcasing its robustness and scalability.'
+            'Led the development of a cutting-edge GIS web app for real-time environmental analysis, optimizing large geospatial datasets for faster insights. Adopted by 100+ scientists and policymakers, it was recognized as revolutionary by IBAMA, Brazil’s federal environmental agency, and was delivered over a year ahead of schedule.',
+            'Developed a pioneering system to assess human impact on whales and dolphins along Brazil\'s coast, which increased the company\'s revenue by 11.32% and by far surpassed original expectations across functionality. The system has the potential to influence government policies and help maritime companies optimize their routes.',
+            'Built a real-time data transmission system that sped up scientific operations, cutting data processing by 60+ days.',
+            'Integrated an innovative machine learning algorithm into a web app to automate dolphin species classification—cutting manual processing time from days to minutes and boosting user conversion rate to nearly 90%.',
+            'Architected and built a high-performance REST API and relational database from the ground up, including schema design, complex SQL queries, and data normalization — now powering five projects in stable production.',
+            'Used feedback loops, KPI-driven updates and A/B tests to deliver features boosting platform value.'
         ],
         achievementsPT: [
             
-            'Liderou o desenvolvimento de um aplicativo web GIS de ponta para análise ambiental e visualização de dados em tempo real, otimizando grandes conjuntos de dados geoespaciais para insights mais rápidos. Adotado por dezenas de cientistas ambientais e formuladores de políticas, o projeto foi reconhecido como revolucionário pela agência federal IBAMA.',
-            'Desenvolveu um sistema pioneiro para avaliar o impacto das atividades humanas em espécies de baleias e golfinhos ao longo da costa brasileira. Com seu potencial para influenciar políticas governamentais e ajudar diversas empresas marítimas a otimizar suas rotas, esse sistema representa um passo crítico na mitigação das atividades humanas na vida marinha.',
-            'Construiu um sistema de transmissão de dados em tempo real que acelerou as operações científicas, reduzindo o tempo de processamento de dados em mais de 60 dias.',
-            'Integrou um algoritmo de aprendizado de máquina em um aplicativo da web para classificar golfinhos costeiros brasileiros - uma inovação no mercado brasileiro que reduziu o tempo de identificação manual de dias para minutos.',
-            'Arquitetou e construiu uma API escalável, garantindo desempenho e integração. O servidor agora lida com 5 projetos diferentes, demonstrando sua robustez e escalabilidade.'
+            'Liderou o desenvolvimento de um aplicativo web GIS de ponta para análise ambiental em tempo real, otimizando grandes conjuntos de dados geoespaciais para obter insights mais rápidos. Adotado por mais de 100 cientistas e políticos, foi reconhecido como revolucionário pelo IBAMA, a agência ambiental federal do Brasil, e foi entregue com mais de um ano de antecedência.',
+            'Desenvolveu um sistema pioneiro para avaliar o impacto humano sobre baleias e golfinhos ao longo da costa brasileira, o que aumentou a receita da empresa em 11,32% e superou, em muito, as expectativas originais em termos de funcionalidade. O sistema tem potencial para influenciar políticas governamentais e ajudar empresas marítimas a otimizar suas rotas.',
+            'Construiu um sistema de transmissão de dados em tempo real que acelerou operações científicas, reduzindo o processamento de dados em mais de 60 dias.',
+            'Integrau um algoritmo inovador de aprendizado de máquina em um aplicativo web para automatizar a classificação de espécies de golfinhos, reduzindo o tempo de processamento manual de dias para minutos, e aumentando a taxa de conversão de usuários para cerca de 90%.',
+            'Arquitetou e construiu uma API REST de alto desempenho e um banco de dados relacional do zero, incluindo schema design, queries SQL complexas e normalização de dados — agora alimentando cinco projetos em produção.',
+            'Utilizou loops de feedback, atualizações orientadas por KPIs e testes A/B para entregar funcionalidades que aumentaram o valor da plataforma.'
         ]
     },
     {
@@ -38,14 +40,14 @@ const EXPERIENCES = [
         achievementsEN: [
             
             'Led the development of a mobile app for a recycling startup, integrating receipt scanning and PIN-based payments designed to divert 17+ tons of waste annually from landfills through incentivized recycling.',
-            'Designed and developed the entire back-end, database architecture, and recycling station system, along with an internal management platform for administrators, ensuring 100% compliance with project KPIs.',
-            'Created comprehensive technical documentation for stakeholders, ensuring clarity and usability.'
+            'Designed and developed the entire back-end, database, recycling station system, and internal admin platform - ensuring 100% compliance with project KPIs. Implemented robust, scalable, secure authentication and ensured performance, accessibility, SEO, and UX best practices across all components.',
+            'Created comprehensive and clear technical documentation for stakeholders and a conversion funnel strategy.'
         ],
         achievementsPT: [
             
-            'Liderou o desenvolvimento de um aplicativo móvel para uma startup de reciclagem, integrando digitalização de recibos e pagamentos baseados em PIN, projetados para evitar que mais de 17 toneladas de resíduos cheguem aos aterros sanitários anualmente por meio de reciclagem incentivada.',
-            'Projetou e desenvolveu todo o back-end, arquitetura de banco de dados e sistema de estação de reciclagem, juntamente com uma plataforma de gerenciamento interna para administradores, garantindo 100% de conformidade com os KPIs do projeto.',
-            'Criou documentação técnica abrangente para as partes interessadas, garantindo clareza e usabilidade.'
+            'Desenvolveu um aplicativo móvel para uma startup de reciclagem, integrando escaneamento de recibos e pagamentos via PIN, projetado para remover anualmente mais de 17 toneladas de resíduos de aterros por meio da reciclagem incentivada.',
+            'Projetou e desenvolveu todo o back-end, banco de dados, sistema da estação de reciclagem e plataforma interna de administração — garantindo 100% de conformidade com os KPIs do projeto. Implementou autenticação robusta, escalável e segura, além de assegurar as melhores práticas de desempenho, acessibilidade, SEO e UX em todos os componentes.',
+            'Criou documentação técnica abrangente e clara para stakeholders e uma estratégia de funil de conversão.',
         ]
     },
     {
@@ -59,13 +61,13 @@ const EXPERIENCES = [
         position: 'Product Manager',
         achievementsEN: [
             
-            'Managed a project with an interdisciplinary team to combat fake news, developing an innovative product strategy that analyzes links by cross-referencing page, domain, and online data to assess content credibility.',
-            'Conducted in-depth research and strategy development, delivering a comprehensive final report highlighting the system\'s capability to reduce misinformation by 30%.'
+            'Contracted for a 6-month engagement to manage a project with an interdisciplinary team to combat fake news, developing an innovative product and growth strategy that analyzes big data to assess content credibility.',
+            'Conducted in-depth research and several analyses, delivering a comprehensive final report highlighting the system\’s capability to reduce misinformation by 30% and further monetization.'
         ],
         achievementsPT: [
             
-            'Gerenciou um projeto com uma equipe interdisciplinar para combater notícias falsas, desenvolvendo uma estratégia de produto inovadora que analisa links por meio de referências cruzadas de página, domínio e dados online para avaliar a credibilidade do conteúdo.',
-            'Realizou pesquisa aprofundada e desenvolvimento de estratégia, entregando um relatório final abrangente destacando a capacidade do sistema de reduzir a desinformação em 30%.'
+            'Contratado para um projeto de 6 meses para gerenciar uma equipe interdisciplinar no combate às fake news, desenvolvendo um produto inovador e uma estratégia de crescimento que analisa big data para avaliar a credibilidade de conteúdos.',
+            'Conduziu pesquisas aprofundadas e diversas análises, entregando um relatório final abrangente que destacou a capacidade do sistema de reduzir a desinformação em 30% e possibilidades de monetização.'
         ]
     },
     {
@@ -97,13 +99,13 @@ const EXPERIENCES = [
         position: 'UI Designer',
         achievementsEN: [
             
-            'Designed the website UI and branding for a tourism startup, including the logo and visual elements. The company garnered 3 international awards, significantly boosting the startup\'s credibility and visibility in the market.',
-            'Collaborated with product managers and developers to align designs with business goals'
+            'Designed the website UI and branding for a tourism startup, including the logo and visual elements. The company garnered 3 international awards, significantly boosting its growth, credibility, and visibility in the market.',
+            'Conducted A/B testing and product iteration, leading to a 25.6% engagement increase.'
         ],
         achievementsPT: [
             
-            'Projetou a UI do site e o branding para uma startup de turismo, incluindo o logotipo e elementos visuais. A empresa ganhou 3 prêmios internacionais, aumentando significativamente a credibilidade e a visibilidade da startup no mercado.',
-            'Colaborou com gerentes de produtos e desenvolvedores para alinhar os designs com os objetivos de negócios'
+            'Projetou a interface do site e a identidade visual para uma startup de turismo, incluindo o logotipo e elementos visuais. A empresa conquistou 3 prêmios internacionais, impulsionando significativamente seu crescimento, credibilidade e visibilidade no mercado.',
+            'Conduziu testes A/B e iterações de produto, resultando em um aumento de 25,6% no engajamento.',
         ]
     }
 ];

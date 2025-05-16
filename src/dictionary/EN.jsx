@@ -37,7 +37,9 @@ export const EN = {
 
         PROJECTS: 'Projects',
         VIEW: 'View',
-        VIEWALL: 'View all'
+        VIEWALL: 'View all',
+        MOREDETAILS: 'More details',
+        USEAI: 'This project uses AI'
     },
 
     skills: {

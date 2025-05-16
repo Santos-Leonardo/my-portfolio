@@ -3,10 +3,13 @@ import { useNavigate } from 'react-router-dom';
 
 import styles from './projectitem.module.css'
 import { Context } from '../../../context/Context';
+import Button from '../../button/Button';
 
 const ProjectItem = ({ project }) => {
 
     const DICT = React.useContext(Context).dictionary.homeProjects;
+    const lang = React.useContext(Context).systemLanguage;
+
     const navigate = useNavigate();
 
     const image = new URL(`../../../assets/images/projects/${project.shortName}/main.gif`, import.meta.url).href;
@@ -25,11 +28,13 @@ const ProjectItem = ({ project }) => {
 
     return (
         <li className={styles.project} onClick={() => {navigate(`project/${project.shortName}`)}} onMouseMove={handleMouseMove} onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)}>
-            {/* Project Image */}
-            <img className={styles.img} src={image} alt="main" />
             <div className={styles.content}>
                 {/* Project Title */}
-                <h3 className={``}>{project.name}</h3>
+                <div className={styles.projectName}>
+                    <h3>{project.name}</h3>
+                    {project.ai ? <span className={`${styles.ai} code`} title={DICT.USEAI}>AI</span> : ''}    
+                </div>
+                <p className={styles.projectSummary}>{lang === 'EN' ? project.summaryEN : project.summaryPT}</p>
                 {/* Project Stack List */}
                 <div className={styles.stack}>
                     {project.stack.map((stack, i) => {
@@ -39,7 +44,10 @@ const ProjectItem = ({ project }) => {
                         <div className={styles.stackPlus}>+{project.stack.length - 4}</div>
                     )}
                 </div>
+                <Button text={DICT.MOREDETAILS} onClick={() => {navigate(`project/${project.shortName}`)}} />
             </div>
+            {/* Project Image */}
+            <img className={`${styles.img} ${styles.imgBg}`} src={image} alt="main" />
             {/* Circle Icon on Mouse Hover */}
             {isHovering && (
                 <div className={`code ${styles.circle}`} style={{

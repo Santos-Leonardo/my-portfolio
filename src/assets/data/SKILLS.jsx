@@ -8,6 +8,8 @@ const SKILLS = {
         'node',
         'python',
         'javascript',
+        'graphql',
+        'restapi',
         'html',
         'css',
         'php',

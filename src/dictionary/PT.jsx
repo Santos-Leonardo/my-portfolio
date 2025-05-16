@@ -37,7 +37,9 @@ export const PT = {
 
         PROJECTS: 'Projetos',
         VIEW: 'Ver',
-        VIEWALL: 'Ver todos'
+        VIEWALL: 'Ver todos',
+        MOREDETAILS: "Mais detalhes",
+        USEAI: 'Este projeto usa IA'
     },
 
     skills: {
