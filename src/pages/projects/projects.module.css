@@ -1,0 +1,13 @@
+.page {
+
+    padding: 100px 30px 60px;
+}
+
+.pageTitle {
+
+    display: inline-block;
+    margin: 100px auto;
+    width: fit-content;
+    font-size: var(--fsize9);
+    text-align: center;
+}

@@ -20,7 +20,6 @@ export const PT = {
     },
 
     located: {
-
         LOCATEDAT: 'Localizado em',
         LOCATION: 'Minas Gerais, Brasil'
     },
@@ -62,12 +61,10 @@ export const PT = {
     },
 
     experience: {
-
         EXPERIENCE: "Experiência"
     },
 
     awards: {
-
         AWARDS: "Prêmios"
     },
 
@@ -84,8 +81,14 @@ export const PT = {
     },
 
     footer: {
-
         LETSWORKTOGETHER: 'Vamos trabalhar juntos',
         LOCATION: 'Minas Gerais, Brasil'
     },
+
+    error404: {
+        PAGENOTFOUND: 'Oops! Essa página não foi encontrada, mas tem muitos projetos para você ver. É só clicar no botão abaixo 😁',
+        SEEPROJECTS: 'Ver projetos'
+    },
+
+    
 }

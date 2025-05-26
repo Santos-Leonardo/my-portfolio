@@ -26,6 +26,7 @@ const Skills = () => {
                                 alt={stack} 
                                 title={stack} 
                             />
+                            <p className={styles.stackName}>{stack}</p>
                         </li>
                     ))}
                 </ul>

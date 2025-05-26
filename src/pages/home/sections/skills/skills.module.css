@@ -17,6 +17,7 @@
 
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 140px;
     animation: slide-right 60s linear infinite;
 }
@@ -25,9 +26,33 @@
     animation-play-state: paused;
 }
 
+.list li {
+
+    transition: all .4s ease;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
 .list li img {
 
     width: 60px;
+    display: block;
+}
+
+.stackName {
+
+    color: var(--c8);
+    opacity: .4;
+    margin: 8px auto;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: var(--fsize2);
+    transition: all .4s ease;
+    display: none;
+}
+
+.list li:hover .stackName {
     display: block;
 }
 

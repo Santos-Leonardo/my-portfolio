@@ -1,5 +1,3 @@
-import React from 'react'
-
 import styles from './gototop.module.css'
 import arrowPath from '../../assets/images/icons/arrow-up-white.svg'
 import useScroll from '../../hooks/useScroll'

@@ -20,7 +20,6 @@ export const EN = {
     },
 
     located: {
-
         LOCATEDAT: 'Located at',
         LOCATION: 'Minas Gerais, Brazil'
     },
@@ -62,12 +61,10 @@ export const EN = {
     },
 
     experience: {
-
         EXPERIENCE: "Experience"
     },
 
     awards: {
-
         AWARDS: "Awards"
     },
 
@@ -84,9 +81,17 @@ export const EN = {
     },
 
     footer: {
-
         LETSWORKTOGETHER: 'Let\'s work together',
         LOCATION: 'Minas Gerais, Brazil'
     },
     
+    error404: {
+        PAGENOTFOUND: 'Oops! The page was not found, but there are lots of projects you can browse on the button below 😁',
+        SEEPROJECTS: 'See projetcs'
+    },
+
+    projects: {
+
+
+    }
 }
