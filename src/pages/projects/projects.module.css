@@ -1,13 +1,17 @@
 .page {
-
     padding: 100px 30px 60px;
+    background: #D8F3DC;
+    background: linear-gradient(90deg, rgba(238, 238, 238, 1) 0%, rgba(216, 243, 220, 1) 99%);
+}
+
+.title {
+
+    margin: 120px auto 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .pageTitle {
-
-    display: inline-block;
-    margin: 100px auto;
-    width: fit-content;
-    font-size: var(--fsize9);
-    text-align: center;
+    font-size: var(--fsize8);
+    color: var(--c1);
 }

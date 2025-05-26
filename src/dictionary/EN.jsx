@@ -11,11 +11,11 @@ export const EN = {
     head: {
 
         HELLO: "Hello, I'm",
-        IMSENIOR: 'I am a senior developer with ',
+        IMSENIOR: 'I am a developer with ',
         FIVEYEARS: '5+ years ',
-        WITHYEARSOFEXPERIENCE: 'of experience building high-impact websites that drive innovation and shape a better world. My expertise spans ',
-        STACKS: 'front-end, back-end, and database ',
-        END: 'technologies. With startup experience and an entrepreneurial mindset, I translate business requirements into scalable, user-centric solutions.',
+        WITHYEARSOFEXPERIENCE: 'of experience building high-impact systems and websites that positively impact the world. My expertise spans ',
+        STACKS: 'Front-end, Back-end, and Database ',
+        END: 'technologies. With startup experience and an entrepreneurial mindset, I translate business requirements into scalable, user-centric solutions, delivering measurable growth.',
         OPENCV: "Open CV"
     },
 

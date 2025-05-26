@@ -5,7 +5,7 @@ import styles from './projectitem.module.css'
 import { Context } from '../../../context/Context';
 import Button from '../../button/Button';
 
-const ProjectItem = ({ project }) => {
+const ProjectItem = ({ project, border = false }) => {
 
     const DICT = React.useContext(Context).dictionary.homeProjects;
     const lang = React.useContext(Context).systemLanguage;
@@ -27,10 +27,10 @@ const ProjectItem = ({ project }) => {
     };
 
     return (
-        <li className={styles.project} onClick={() => {navigate(`project/${project.shortName}`)}} onMouseMove={handleMouseMove} onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)}>
+        <li className={`${styles.project} ${border ? styles.border : ''}`} onClick={() => {navigate(`project/${project.shortName}`)}} onMouseMove={handleMouseMove} onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)}>
             <div className={styles.content}>
                 {/* Project Title */}
-                <div className={styles.projectName}>
+                <div className={`code ${styles.projectName}`}>
                     <h3>{project.name}</h3>
                     {project.ai ? <span className={`${styles.ai} code`} title={DICT.USEAI}>AI</span> : ''}    
                 </div>

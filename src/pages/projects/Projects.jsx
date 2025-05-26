@@ -1,15 +1,15 @@
-import React from 'react'
-
 import styles from './projects.module.css'
 import ProjectList from '../../components/projects/ProjectList'
+import PhraseDot from '../../components/phrasedot/PhraseDot'
 
 const Projects = () => {
 
     return (
         <section className={styles.page}>
-            <h1 className={styles.pageTitle}>Bringing visions to life</h1>
-            <ProjectList limit={10} />
-
+            <div className={styles.title}>
+                <h1 className={`code ${styles.pageTitle}`}>Bringing visions to life<PhraseDot title={true} /></h1>
+            </div>
+            <ProjectList limit={100} border={true} />
         </section>
     )
 }
