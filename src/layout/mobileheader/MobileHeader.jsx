@@ -36,6 +36,8 @@ const MobileHeader = ({ on, setOn }) => {
         if (route) {
             (route === 'contact') ? GLOBAL_DATA.footerRef.current?.scrollIntoView({ behavior: "smooth" }) : navigate(route);
         } 
+
+        document.body.style.overflow = 'initial';
     }
 
     return on

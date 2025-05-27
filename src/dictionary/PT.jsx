@@ -90,5 +90,12 @@ export const PT = {
         SEEPROJECTS: 'Ver projetos'
     },
 
-    
+    about: {
+
+        DRIVENBY: 'Movido pelo desejo de contribuir com projetos que realmente fazem a diferença na vida das pessoas',
+        WHATIDO: 'Colaboro com empresas ao redor do mundo desenvolvendo soluções personalizadas e sistemas escaláveis de alto impacto que promovem transformações significativas. Tenho como prioridade a qualidade em cada etapa do processo, sempre com foco na melhor experiência para o usuário.',
+        EXP: 'Trabalhei de forma autônoma e em ambientes colaborativos, utilizando comunicação síncrona e assíncrona com equipes interdisciplinares de cientistas, gerentes, profissionais de marketing e desenvolvedores, de forma remota, híbrida e presencial em diversos cenários internacionais.',
+        DEGREE: 'Também sou formado em Engenharia de Software e concluí mais de 900 horas de cursos profissionalizantes, impulsionado pela minha paixão pelo aprendizado contínuo.',
+        GETINTOUCH: 'Se você procura um profissional comprometido para colaborar em projetos inovadores, adoraria discutir algumas ideias e compartilhar experiências.'
+    }
 }

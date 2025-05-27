@@ -9,6 +9,7 @@
     bottom: 0;
     animation: entrance .6s ease-in-out;
     z-index: 2;
+    overflow: hidden;
 }
 
 .mobileMenu.exit {
@@ -20,6 +21,7 @@
     border-bottom: 1px solid var(--g5);
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: end;
     padding: 20px 0;
     width: 90%;
     margin: 0 auto;
@@ -39,7 +41,7 @@
     font-size: 20px;
     line-height: 0;
     grid-column: 2 / 3;
-    margin-left: auto;
+    margin-left: 100px;
     cursor: pointer;
     transition: all .4s ease-in;
 }

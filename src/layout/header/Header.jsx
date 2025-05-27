@@ -24,7 +24,13 @@ const Header = () => {
     const [fixed, setFixed] = React.useState(false);
     const { y } = useScroll();
 
-    React.useEffect(() => { setFixed(y > 15); }, [y]);    
+    React.useEffect(() => { setFixed(y > 15); }, [y]);   
+    
+    const toggleMobileMenu = () => {
+
+        setIsMobileMenuActive(!isMobileMenuActive);
+        document.body.style.overflow = 'hidden';
+    }
 
     return (
         <header className={`container ${styles.header} ${fixed ? styles.fixed : ''}`}>
@@ -39,7 +45,7 @@ const Header = () => {
                 </ul>
             </nav>
             {/* Mobile Menu Icon */}
-            <div onClick={() => { setIsMobileMenuActive(!isMobileMenuActive) }} className={styles.mobileMenuIcon}>
+            <div onClick={toggleMobileMenu} className={styles.mobileMenuIcon}>
                 <div className={styles.menuBar}></div>
                 <div className={styles.menuBar}></div>
                 <div className={styles.menuBar}></div>
