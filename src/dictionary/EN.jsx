@@ -96,6 +96,14 @@ export const EN = {
         WHATIDO: 'I collaborate with companies around the globe to deliver tailor-made solutions, crafting scalable, high-impact systems that drive meaningful change. I always put quality first, with a strong focus on user experience.',
         EXP: 'I’ve worked autonomously and in collaborative environments, using synchronous and asynchronous communication to foster teamwork alongside interdisciplinary teams of scientists, managers, marketers, and developers in remote, hybrid, and on-site roles across diverse international settings.',
         DEGREE: 'I also hold a degree in Software Engineering and have completed over 800 hours of professional coursework, driven by my passion for continuous learning.',
-        GETINTOUCH: 'If you’re looking for a committed professional to collaborate on exciting projects, I’d love to discuss some ideas and share experiences.'
+        GETINTOUCH: 'If you’re looking for a committed professional to collaborate on exciting projects, I’d love to discuss some ideas and share experiences.',
+        VIEWORK: 'My Work'
+    },
+
+    project: {
+
+        VISITPROJECT: 'Visit project',
+        USESAI: 'This project has an AI built-in',
+        RESTARTED: 'Restarted'
     }
 }

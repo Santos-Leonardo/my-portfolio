@@ -39,6 +39,7 @@
 
 .textArea p:last-of-type {
     opacity: .7;
+    margin-bottom: 60px;
 }
 
 

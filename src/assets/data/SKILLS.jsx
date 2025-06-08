@@ -15,6 +15,7 @@ const SKILLS = {
         'php',
         'mysql',
         'postgresql',
+        'sqlite',
         'git',
         'seo',
         'figma',

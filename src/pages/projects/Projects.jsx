@@ -1,8 +1,14 @@
+import React from 'react'
+
 import styles from './projects.module.css'
 import ProjectList from '../../components/projects/ProjectList'
 import PhraseDot from '../../components/phrasedot/PhraseDot'
 
 const Projects = () => {
+
+    React.useEffect(() => {
+        document.body.scrollIntoView({behavior: 'smooth'});
+    }, []);
 
     return (
         <section className={styles.page}>

@@ -26,15 +26,24 @@ const ProjectItem = ({ project, border = false }) => {
         setPosition({ x, y });
     };
 
+    const getProjectSummary = (summary) => {
+
+        if (summary?.charAt(130)) {
+            return `${summary.slice(0, 130)}...`
+        }
+
+        return summary;
+    }
+
     return (
-        <li className={`${styles.project} ${border ? styles.border : ''}`} onClick={() => {navigate(`project/${project.shortName}`)}} onMouseMove={handleMouseMove} onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)}>
+        <li className={`${styles.project} ${border ? styles.border : ''}`} onClick={() => {navigate(`/project/${project.shortName}`)}} onMouseMove={handleMouseMove} onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)}>
             <div className={styles.content}>
                 {/* Project Title */}
                 <div className={`code ${styles.projectName}`}>
                     <h3>{project.name}</h3>
                     {project.ai ? <span className={`${styles.ai} code`} title={DICT.USEAI}>AI</span> : ''}    
                 </div>
-                <p className={styles.projectSummary}>{lang === 'EN' ? project.summaryEN : project.summaryPT}</p>
+                <p className={styles.projectSummary}>{getProjectSummary(lang === 'EN' ? project.summaryEN : project.summaryPT)}</p>
                 {/* Project Stack List */}
                 <div className={styles.stack}>
                     {project.stack.map((stack, i) => {

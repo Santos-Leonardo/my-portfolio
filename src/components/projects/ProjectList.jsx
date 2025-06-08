@@ -7,10 +7,6 @@ import { Context } from '../../context/Context';
 const ProjectList = ({ limit, border = false }) => {
 
     const projectsList = React.useContext(Context).PROJECTS;
-
-    React.useEffect(() => {
-        document.body.scrollIntoView({behavior: 'smooth'});
-    });
     
     return (
         <ul className={styles.projects}>

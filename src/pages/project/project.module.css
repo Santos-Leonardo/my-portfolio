@@ -1,0 +1,227 @@
+.cover {
+
+    background-color: var(--g8);
+    padding: 200px 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover img {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.titleArea {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    padding: 100px 30px;
+}
+
+.titleArea h1 {
+
+    font-size: var(--fsize9);
+    color: var(--c1);
+    transition: all .6s ease;
+    margin-bottom: 16px;
+}
+
+.titleArea h1:hover {
+    color: var(--c2);
+}
+
+.readMoreBtn {
+
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    background-color: #EEE;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--c1);
+    font-size: var(--fsize2);
+    font-weight: 600;
+    transition: all .4s ease;
+}
+
+.readMoreBtn:hover {
+    background-color: #DDD;
+}
+
+.titleArea p {
+
+    max-width: 800px;
+    color: var(--g4);
+    margin-bottom: 24px;
+    text-align: left;
+    line-height: 23px;
+}
+
+.stackList {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.stackList li img {
+    width: 40px;
+    transition: all .6s ease;
+}
+
+.stackList li img:hover {
+    transform: scale(1.1);
+}
+
+.AI {
+
+    font-size: var(--fsize5);
+    background: -webkit-linear-gradient(var(--c2), var(--c6));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 10px;
+    animation: pulsing 2.3s infinite;
+}
+
+@keyframes pulsing {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.buttons {
+
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.githubBtn img {
+    width: 40px;
+}
+
+.galleryBox {
+
+    background-color: #000;
+    padding: 60px 16px;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.videoBox {
+    position: relative;
+}
+
+.videoBox video {
+
+    width: 100%;
+    max-width: 1400px;
+    border-radius: 8px;
+}
+
+.restartVideo {
+
+    background-color: rgba(0, 0, 0, .9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20%;
+    min-height: 60px;
+    max-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation: fadeIn .3s ease-in;
+    color: #EEE;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.restartVideo img {
+    width: 40px;
+    transition: all .6s ease;
+}
+
+.restartVideo:hover img {
+    transform: rotate(-30deg);
+}
+
+.gallery {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galleryCollumn {
+
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 10px;
+}
+
+.galleryCollumn img {
+
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .7s ease;
+}
+
+.galleryCollumn img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+
+    .galleryCollumn {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .galleryCollumn {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
