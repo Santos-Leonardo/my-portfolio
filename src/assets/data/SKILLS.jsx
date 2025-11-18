@@ -1,25 +1,26 @@
 const SKILLS = {
     
     hardSkills: [
-        
-        'react',
-        'angular',
-        'typescript',
-        'node',
-        'python',
-        'javascript',
-        'graphql',
-        'restapi',
-        'html',
-        'css',
-        'php',
-        'mysql',
-        'postgresql',
-        'sqlite',
-        'git',
-        'seo',
-        'figma',
-        'adobexd'
+
+        { stack: 'react', name: 'React' },
+        { stack: 'reactnative', name: 'React Native' },
+        { stack: 'angular', name: 'Angular' },
+        { stack: 'typescript', name: 'TypeScript' },
+        { stack: 'node', name: 'Node.js' },
+        { stack: 'python', name: 'Python' },
+        { stack: 'javascript', name: 'JavaScript' },
+        { stack: 'graphql', name: 'GraphQL' },
+        { stack: 'restapi', name: 'REST API' },
+        { stack: 'html', name: 'HTML' },
+        { stack: 'css', name: 'CSS' },
+        { stack: 'php', name: 'PHP' },
+        { stack: 'mysql', name: 'MySQL' },
+        { stack: 'postgresql', name: 'PostgreSQL' },
+        { stack: 'sqlite', name: 'SQLite' },
+        { stack: 'git', name: 'Git' },
+        { stack: 'seo', name: 'SEO' },
+        { stack: 'figma', name: 'Figma' },
+        { stack: 'adobexd', name: 'Adobe XD' }
     ],
     
     softSkillsEN: [
@@ -33,7 +34,9 @@ const SKILLS = {
         "Adaptability and Open-Mindedness",
         "Effective Communication",
         "Attention to Detail",
-        "Passion for Technology"
+        "Passion for Technology",
+        "Slack, Zoom and Google Meet Communication", 
+        "Time-management"
     ],
     
     softSkillsPT: [
@@ -47,7 +50,9 @@ const SKILLS = {
         "Adaptabilidade e Mente Aberta",
         "Comunicação Eficaz",
         "Atenção aos Detalhes",
-        "Paixão por Tecnologia"
+        "Paixão por Tecnologia",
+        "Comunicação por Slack, Zoom e Google Meet",
+        "Gerenciamento de tempo"
     ]      
 }
 

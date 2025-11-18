@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 
 import styles from './project.module.css'
 import PROJECTS from '../../assets/data/PROJECTS'
@@ -24,6 +24,7 @@ const Project = () => {
     const [videoURL, setVideoURL] = React.useState(null);
 
     const param = useParams();
+    const navigate = useNavigate();
 
     const [imageSrc, setImageSrc] = React.useState(null);
     const [fullscreenKey, setFullscreenKey] = React.useState(0);
@@ -89,7 +90,7 @@ const Project = () => {
                 <div>
                     <p>{paragraphs[0]} {paragraphs[1] && !expanded ? paragraphs[1].slice(0, 7)+'...' : ''}</p>
                     {expanded && paragraphs.slice(1).map((para, i) => (<p key={i + 1}>{para}</p>))}
-                    {!expanded && paragraphs.length > 1 && (<button className={styles.readMoreBtn} onClick={() => setExpanded(true)}>Read more</button>)}
+                    {!expanded && paragraphs.length > 1 && (<button className={styles.readMoreBtn} onClick={() => setExpanded(true)}>{ DICT.READMORE }</button>)}
                 </div> 
                 {/* Stack List */}
                 <ul className={styles.stackList}>
@@ -99,27 +100,27 @@ const Project = () => {
                     })}
                 </ul>
                 {/* Buttons */}
-                <div className={styles.buttons}>
+                {(project.link.length || project.github.length) ? <div className={styles.buttons}>
                     {project.link.length ? 
                         <Button text={DICT.VISITPROJECT} arrow={true} onClick={() => { window.open(project.link, '_blank'); }} /> : ''}
                     {project.github.length ?
                         <a href={project.github} target='_blank' className={styles.githubBtn}>
                             <img src={gitHubLogo} alt="GitHub" />
                         </a> : ''}
-                </div>
+                </div> : ''}
             </div>
             {/* Gallery */}
             <section className={styles.galleryBox}>
                 {/* Video */}
-                <div className={styles.videoBox} onMouseOver={() => { setOnVideoHover(true); }} onMouseLeave={() => { setOnVideoHover(false); }}>
+                {!videoURL.includes('undefined') && <div className={styles.videoBox} onMouseOver={() => { setOnVideoHover(true); }} onMouseLeave={() => { setOnVideoHover(false); }}>
                     <video ref={videoTag} src={videoURL} disablePictureInPicture loop muted preload='auto'></video>
                     {onVideoHover && <div className={styles.restartVideo} onClick={restartVideo}>
                         {!showRestartedMsg ? <img src={restartIcon} alt="Restart" /> : <span>{DICT.RESTARTED}</span>}
                     </div>}
-                </div>
+                </div>}
                 {/* Pictures */}
                 <div className={styles.gallery}>
-                    {[...Array(3)].map((_, i) => {
+                    {[...Array(Math.floor(project.photos / 3))].map((_, i) => {
                         return  <div key={i+'column'} className={styles.galleryCollumn}>
                                     {[...Array(3)].map((_, j) => {
                                         let src = new URL(`../../assets/images/projects/${project.shortName}/${i}${j}.png`, import.meta.url).href;
@@ -128,6 +129,7 @@ const Project = () => {
                                 </div>
                     })}
                 </div>
+                <Button text={`${DICT.OTHERPROJECTS}`} onClick={() => { navigate('/projects')} } />
             </section>
             {/* Fullscreen Image */}
             {imageSrc && <Fullscreen img={imageSrc} triggerKey={fullscreenKey} />}

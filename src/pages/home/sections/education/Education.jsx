@@ -67,7 +67,7 @@ const Education = () => {
                             </div>
                         </a>
                     </li>
-                    <Button text={`${DICT.SEEALLCOURSES} (37)`} onClick={() => { window.open('https://www.linkedin.com/in/leonardo-santos-dev/details/certifications/', '_blank'); }} arrow={true} />
+                    <Button text={`${DICT.SEEALLCOURSES} (40+)`} onClick={() => { window.open('https://www.linkedin.com/in/leonardo-santos-dev/details/certifications/', '_blank'); }} arrow={true} />
                 </ul>
             </div>
         </section>

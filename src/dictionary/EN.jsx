@@ -12,10 +12,10 @@ export const EN = {
 
         HELLO: "Hello, I'm",
         IMSENIOR: 'I am a developer with ',
-        FIVEYEARS: '5+ years ',
+        FIVEYEARS: '6+ years ',
         WITHYEARSOFEXPERIENCE: 'of experience building high-impact systems and websites that positively impact the world. My expertise spans ',
         STACKS: 'Front-end, Back-end, and Database ',
-        END: 'technologies. With startup experience and an entrepreneurial mindset, I translate business requirements into scalable, user-centric solutions, delivering measurable growth.',
+        END: 'technologies. With startup experience and an entrepreneurial mindset, I translate business requirements into scalable, user-centric solutions.',
         OPENCV: "Open CV"
     },
 
@@ -42,7 +42,8 @@ export const EN = {
     },
 
     skills: {
-        SKILLS: "Skills"
+        SKILLS: "Skills",
+        SKILLSLIST: "Other Skills"
     },
 
     services: {
@@ -56,7 +57,7 @@ export const EN = {
         OUTPUTS2: 'Servers implementation, REST APIs, Payment integrations, External API integrations, Real-time data systems',
         DATABASES: 'Database Architecture',
         DESC3: 'Reliable, scalable, and secure data management tailored for performance and growth',
-        OUTPUTS3: 'Database creation and management, Database connections, Big data pipelines from scratch, Data warehouse, Real-time analytics',
+        OUTPUTS3: 'Database creation and management, Database connections, Cloud migration, Big data pipelines from scratch, Data warehouse, Real-time analytics',
         GETINTOUCH: 'Get in touch'
     },
 
@@ -75,9 +76,9 @@ export const EN = {
         IPPDEGREE: "Software Engineering Degree",
         IPPNAME: 'Polytechnic Institute of Portalegre',
         RZESZOWNAME: 'University of Rzeszów',
-        CERTIFICATION1: 'Full-Stack Development Specialization (436 hours)',
-        CERTIFICATION2: 'Front End & UX/UI Design Specialization (262 hours)',
-        CERTIFICATION3: 'SEO Certification (19 hours)'
+        CERTIFICATION1: 'Full-Stack Development Specialization (500+ hours)',
+        CERTIFICATION2: 'Front End & UX/UI Design Specialization (250+ hours)',
+        CERTIFICATION3: 'SEO Certification (20+ hours)'
     },
 
     footer: {
@@ -95,7 +96,7 @@ export const EN = {
         DRIVENBY: 'Driven by the desire to contribute to projects that truly make a difference in people\'s lives',
         WHATIDO: 'I collaborate with companies around the globe to deliver tailor-made solutions, crafting scalable, high-impact systems that drive meaningful change. I always put quality first, with a strong focus on user experience.',
         EXP: 'I’ve worked autonomously and in collaborative environments, using synchronous and asynchronous communication to foster teamwork alongside interdisciplinary teams of scientists, managers, marketers, and developers in remote, hybrid, and on-site roles across diverse international settings.',
-        DEGREE: 'I also hold a degree in Software Engineering and have completed over 800 hours of professional coursework, driven by my passion for continuous learning.',
+        DEGREE: 'I also hold a degree in Software Engineering and have completed over 1000 hours of professional coursework, driven by my passion for continuous learning.',
         GETINTOUCH: 'If you’re looking for a committed professional to collaborate on exciting projects, I’d love to discuss some ideas and share experiences.',
         VIEWORK: 'My Work'
     },
@@ -104,6 +105,8 @@ export const EN = {
 
         VISITPROJECT: 'Visit project',
         USESAI: 'This project has an AI built-in',
-        RESTARTED: 'Restarted'
+        RESTARTED: 'Restarted',
+        OTHERPROJECTS: 'Other projects',
+        READMORE: 'Read more'
     }
 }

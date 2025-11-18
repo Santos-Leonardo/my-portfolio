@@ -189,9 +189,7 @@
 }
 
 .galleryCollumn {
-
     flex: 33%;
-    max-width: 33%;
     padding: 0 10px;
 }
 
@@ -223,5 +221,16 @@
     .galleryCollumn {
         flex: 100%;
         max-width: 100%;
+    }
+
+    .titleArea h1 {
+        font-size: var(--fsize7);
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .titleArea h1 {
+        font-size: var(--fsize5);
     }
 }

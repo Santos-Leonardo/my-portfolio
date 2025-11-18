@@ -1,5 +1,3 @@
-import React from 'react'
-
 import styles from './button.module.css'
 import arrowRight from '../../assets/images/icons/arrow-right-green.svg'
 

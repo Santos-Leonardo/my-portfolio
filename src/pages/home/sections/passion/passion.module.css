@@ -26,8 +26,10 @@
 }
 
 .picture {
+    
    max-width: 600px;
-   opacity: .9;
+   transform: scaleX(-1);
+   margin-right: -70px;
 }
 
 @media (max-width: 1120px) {

@@ -21,7 +21,7 @@ const HomeProjects = () => {
             <div className={`${styles.list}`}>
                 <ProjectList limit={(window.innerWidth > 700) ? 4 : 3} />
             </div>
-            <Button text={`${DICT.VIEWALL} (${numberOfProjects})`} onClick={() => { navigate('projects')} } />
+            <Button text={`${DICT.VIEWALL} (${numberOfProjects})`} onClick={() => { navigate('projects'); } } />
         </section>
     )
 }

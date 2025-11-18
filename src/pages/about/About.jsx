@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Context } from '../../context/Context'
 import PhraseDot from '../../components/phrasedot/PhraseDot'
 import styles from './about.module.css'
-import me from '../../assets/images/me2.jpg'
+import me from '../../assets/images/me2.png'
 import Button from '../../components/button/Button'
 
 const About = () => {

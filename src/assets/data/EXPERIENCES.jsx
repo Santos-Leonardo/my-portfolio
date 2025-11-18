@@ -1,63 +1,87 @@
 const EXPERIENCES = [
-
+    
     {
-        companyName: 'Instituto Aqualie',
-        companyWesite: 'https://aqualie.org.br',
-        companylogo: 'aqualie.webp',
+        companyName: 'Diveroli Investment Group',
+        market: 'Financial Market',
+        companyWesite: 'https://www.investdig.com/',
+        companylogo: 'dig.png',
         contractType: 'Full-time',
-        dates: 'Feb 2024 - present',
-        location: 'Juiz de Fora, Minas Gerais, Brazil',
-        workType: 'On-site',
-        position: 'Full-stack Software Enginner',
+        dates: 'Jun 2025 - present',
+        location: 'Miami, United States',
+        workType: 'remote (asynchronous)',
+        position: 'Lead Software Engineer',
         achievementsEN: [
             
-            'Led the development of a cutting-edge GIS web app for real-time environmental analysis, optimizing large geospatial datasets for faster insights. Adopted by 100+ scientists and policymakers, it was recognized as revolutionary by IBAMA, Brazil’s federal environmental agency, and was delivered over a year ahead of schedule.',
-            'Developed a pioneering system to assess human impact on whales and dolphins along Brazil\'s coast, which increased the company\'s revenue by 11.32% and by far surpassed original expectations across functionality. The system has the potential to influence government policies and help maritime companies optimize their routes.',
-            'Built a real-time data transmission system that sped up scientific operations, cutting data processing by 60+ days.',
-            'Integrated an innovative machine learning algorithm into a web app to automate dolphin species classification—cutting manual processing time from days to minutes and boosting user conversion rate to nearly 90%.',
-            'Architected and built a high-performance REST API and relational database from the ground up, including schema design, complex SQL queries, and data normalization — now powering five projects in stable production.',
-            'Used feedback loops, KPI-driven updates and A/B tests to deliver features boosting platform value.'
+            'Built an AI-powered, end-to-end Due Diligence automation system (background checks, deep-web searches, multi-source aggregation), reducing processing time from 1 day to 4 minutes and cutting costs by 83%.',
+            'Delivered a new modern company website and a scalable Node.js back-end with financial API integrations (including SEC), contributing to a 12% revenue increase.',
+            'Developed a Python-based AI production service using OpenAI for document summarization, decision support, and automated PDF scraping and audio transcription.',
+            'Executed full cloud migration, deployed Google Workspace, provisioned and secured VPS infrastructure, maintained site content/features, and handled domain analysis and branding assets.',
         ],
         achievementsPT: [
-            
-            'Liderou o desenvolvimento de um aplicativo web GIS de ponta para análise ambiental em tempo real, otimizando grandes conjuntos de dados geoespaciais para obter insights mais rápidos. Adotado por mais de 100 cientistas e políticos, foi reconhecido como revolucionário pelo IBAMA, a agência ambiental federal do Brasil, e foi entregue com mais de um ano de antecedência.',
-            'Desenvolveu um sistema pioneiro para avaliar o impacto humano sobre baleias e golfinhos ao longo da costa brasileira, o que aumentou a receita da empresa em 11,32% e superou, em muito, as expectativas originais em termos de funcionalidade. O sistema tem potencial para influenciar políticas governamentais e ajudar empresas marítimas a otimizar suas rotas.',
-            'Construiu um sistema de transmissão de dados em tempo real que acelerou operações científicas, reduzindo o processamento de dados em mais de 60 dias.',
-            'Integrau um algoritmo inovador de aprendizado de máquina em um aplicativo web para automatizar a classificação de espécies de golfinhos, reduzindo o tempo de processamento manual de dias para minutos, e aumentando a taxa de conversão de usuários para cerca de 90%.',
-            'Arquitetou e construiu uma API REST de alto desempenho e um banco de dados relacional do zero, incluindo schema design, queries SQL complexas e normalização de dados — agora alimentando cinco projetos em produção.',
-            'Utilizou loops de feedback, atualizações orientadas por KPIs e testes A/B para entregar funcionalidades que aumentaram o valor da plataforma.'
+
+            'Criou um sistema para automatizar o processo de Due Diligence (verificações de antecedentes, buscas na web, agregação de múltiplas fontes de dados), baseado em IA, reduzindo a tarefa de 1 dia para 4 minutos e cortando custos em 83%.',
+            'Entregou um novo website moderno para a empresa e um back-end escalável em Node.js com integrações de APIs financeiras (incluindo a SEC), contribuindo para um aumento de 12% na receita.',
+            'Desenvolveu um serviço de IA baseado em Python usando a API da OpenAI para sumarização de documentos, suporte à decisão e extração automatizada de PDFs e transcrição de áudio.',
+            'Executou uma migração completa para a nuvem, implementou o Google Workspace e toda a infraestrutura de um VPS. Manteve o conteúdo/recursos de websites e gerenciou a análise de domínio.'
         ]
     },
     {
-        companyName: 'PACT - Parque do Alentejo de Ciência e Tecnologia',
+        companyName: 'Instituto Aqualie',
+        market: 'Environment Market',
+        companyWesite: 'https://aqualie.org.br',
+        companylogo: 'aqualie.webp',
+        contractType: 'Full-time',
+        dates: 'Feb 2024 - Aug 2025',
+        location: 'Juiz de Fora, Brazil',
+        workType: 'On-site (synchronous)',
+        position: 'Senior Full-stack Software Enginner',
+        achievementsEN: [
+            
+            'Led the development of an advanced GIS platform for real-time environmental analysis. Adopted by scientists and policymakers, it was recognized as revolutionary by IBAMA; delivered over a year ahead of schedule.',
+            'Created a pioneering system to assess human impact on whales and dolphins, increasing company revenue by 11.32%, and with potential influence on government policy and maritime route planning.',
+            'Built a real-time data transmission system that sped up scientific operations, cutting 30+ days of data processing.',
+            'Integrated a machine-learning model into a web app to automate dolphin species classification, reducing manual work from 12+ days to 10 minutes, and raising user conversion rates to nearly 90%.',
+            'Architected and implemented a high-performance REST API, a relational database, and a complete CMS - including their designs. Also optimized large geospatial datasets, used feedback loops, KPI updates, and A/B tests'
+        ],
+        achievementsPT: [
+
+            'Liderou o desenvolvimento de uma plataforma SIG avançada de análise ambiental em tempo real. Adotada por cientistas e políticos, foi reconhecida como revolucionária pelo IBAMA; entregue com mais de um ano de antecedência.',
+            'Criou um sistema pioneiro para avaliar o impacto humano sobre baleias e golfinhos, aumentando a receita da empresa em 11,32%, com potencial influência em políticas governamentais e planejamento de rotas marítimas.',
+            'Construiu um sistema de transmissão de dados em tempo real que acelerou as operações científicas, reduzindo o processamento de dados em mais de 30 dias.',
+            'Integrou um modelo de aprendizado de máquina a um website para automatizar a classificação de espécies de golfinhos, reduzindo o trabalho manual de mais de 12 dias para 10 minutos e elevando as taxas de conversão de usuários para quase 90%.',
+            'Arquitetou e implementou uma API REST de alto desempenho, um banco de dados relacional e um CMS completo - incluindo os designs. Também otimizou grandes conjuntos de dados geoespaciais, utilizou ciclos de feedback, atualizações de KPIs e testes A/B.'      
+        ]
+    },
+    {
+        companyName: 'PACT',
+        market: 'Recycling Market',
         companyWesite: 'https://www.pact.pt/site/',
         companylogo: 'pact.jpg',
         contractType: 'Part-time',
-        dates: 'Apr 2022 - Feb 2024',
-        location: 'Évora, Évora, Portugal',
-        workType: 'Remote',
+        dates: 'Mar 2022 - Feb 2024',
+        location: 'Évora, Portugal',
+        workType: 'Remote (asynchronous)',
         position: 'Full-stack Developer',
         achievementsEN: [
             
-            'Led the development of a mobile app for a recycling startup, integrating receipt scanning and PIN-based payments designed to divert 17+ tons of waste annually from landfills through incentivized recycling.',
-            'Designed and developed the entire back-end, database, recycling station system, and internal admin platform - ensuring 100% compliance with project KPIs. Implemented robust, scalable, secure authentication and ensured performance, accessibility, SEO, and UX best practices across all components.',
-            'Created comprehensive and clear technical documentation for stakeholders and a conversion funnel strategy.'
+            'Developed a mobile app (including the design) for a startup with secure payments, supermarket receipt scanning, recycling incentive features, and personalized user dashboards. Also designed and built the entire back-end, database, recycling-station, and internal admin platform, meeting 100% of KPIs.',
+            'Created comprehensive and clear technical documentation for stakeholders and a conversion funnel strategy.',
         ],
         achievementsPT: [
             
-            'Desenvolveu um aplicativo móvel para uma startup de reciclagem, integrando escaneamento de recibos e pagamentos via PIN, projetado para remover anualmente mais de 17 toneladas de resíduos de aterros por meio da reciclagem incentivada.',
-            'Projetou e desenvolveu todo o back-end, banco de dados, sistema da estação de reciclagem e plataforma interna de administração — garantindo 100% de conformidade com os KPIs do projeto. Implementou autenticação robusta, escalável e segura, além de assegurar as melhores práticas de desempenho, acessibilidade, SEO e UX em todos os componentes.',
-            'Criou documentação técnica abrangente e clara para stakeholders e uma estratégia de funil de conversão.',
+            'Desenvolveu um aplicativo móvel (incluindo todo o design) para uma startup com pagamentos seguros, leitura de recibos de supermercado, recursos de incentivo à reciclagem e painéis de usuário personalizados. Também projetou e construiu todo o back-end, banco de dados, estação de reciclagem e uma plataforma administrativa interna, atendendo a 100% dos KPIs.',
+            'Criou uma documentação técnica abrangente e clara para os stakeholders e uma estratégia de funil de conversão.'
         ]
     },
     {
         companyName: 'Demola',
+        market: 'Education Market',
         companyWesite: 'https://www.demola.net/',
         companylogo: 'demola.webp',
         contractType: 'Contract',
         dates: 'Sep 2022 - Feb 2023',
-        location: 'Portalegre, Portalegre, Portugal',
-        workType: 'Hybrid',
+        location: 'Portalegre, Portugal',
+        workType: 'Hybrid (asynchronous and synchronous)',
         position: 'Product Manager',
         achievementsEN: [
             
@@ -76,36 +100,48 @@ const EXPERIENCES = [
         companylogo: 'ipp.png',
         contractType: 'Volunteer',
         dates: 'Apr 2022 - Apr 2022',
-        location: 'Portalegre, Portalegre, Portugal',
+        location: 'Portalegre, Portugal',
         workType: 'On-site',
         position: 'Team Manager',
-        achievementsEN: [
-            
+        achievementsEN: [            
             'Served as the Brazil team leader during the Intercultural Week, taking charge of coordinating the team, delegating tasks, and planning activities. Responsibilities included organizing and delivering events focused on gastronomy, literature, and artistic expression, as well as providing customer service. The event celebrated cultural diversity through engaging and immersive experiences.'
         ],
-        achievementsPT: [
-            
+        achievementsPT: [            
             'Atuou como líder da equipe do Brasil durante a Semana Intercultural, assumindo a coordenação da equipe, delegando tarefas e planejando atividades. As responsabilidades incluíam organizar e entregar eventos focados em gastronomia, literatura e expressão artística, bem como fornecer atendimento ao cliente. O evento celebrou a diversidade cultural por meio de experiências envolventes e imersivas.'
         ]
     },
     {
         companyName: 'ATAALO',
+        market: 'Tourism Market',
         companyWesite: 'https://www.ataalo.com/',
         companylogo: 'ataalo.png',
         contractType: 'Freelance',
-        dates: 'Feb 2020 - Mar 2021',
-        location: 'Rzeszów, Podkarpackie, Poland',
-        workType: 'Remote',
-        position: 'UI Designer',
-        achievementsEN: [
-            
-            'Designed the website UI and branding for a tourism startup, including the logo and visual elements. The company garnered 3 international awards, significantly boosting its growth, credibility, and visibility in the market.',
-            'Conducted A/B testing and product iteration, leading to a 25.6% engagement increase.'
+        dates: 'Feb 2020 - Jun 2021',
+        location: 'Rzeszow, Poland',
+        workType: 'Remote (asynchronous)',
+        position: 'Front-End Developer',
+        achievementsEN: [            
+            'Developed the website and visual identity for a tourism startup, contributing to 3 international awards and increased growth and market visibility.'
         ],
-        achievementsPT: [
-            
-            'Projetou a interface do site e a identidade visual para uma startup de turismo, incluindo o logotipo e elementos visuais. A empresa conquistou 3 prêmios internacionais, impulsionando significativamente seu crescimento, credibilidade e visibilidade no mercado.',
-            'Conduziu testes A/B e iterações de produto, resultando em um aumento de 25,6% no engajamento.',
+        achievementsPT: [            
+            'Desenvolveu o website e a identidade visual de uma startup de turismo, contribuindo para a conquista de 3 prêmios internacionais e para o aumento do crescimento e da visibilidade da empresa.'
+        ]
+    },
+    {
+        companyName: 'Higher School of Technology and Management',
+        market: 'Educational Market',
+        companyWesite: 'https://www.ipportalegre.pt/pt/ensino/escolas/estg/',
+        companylogo: 'estg.png',
+        contractType: 'Intern',
+        dates: 'Oct 2019 - Jun 2020',
+        location: 'Portalegre, Portugal',
+        workType: 'on-site (synchronous)',
+        position: 'Software Engineering Intern',
+        achievementsEN: [            
+            'Built a Tic-tac-toe game, a soccer management system, and a family expense management application.'
+        ],
+        achievementsPT: [            
+            'Desenvolveu o jogo Tic-tac-toe, um sistema de gestão de futebol e um aplicativo de gestão de despesas familiares.'
         ]
     }
 ];
