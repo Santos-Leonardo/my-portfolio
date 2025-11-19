@@ -40,8 +40,7 @@ const ProjectItem = ({ project, border = false }) => {
             <div className={styles.content}>
                 {/* Project Title */}
                 <div className={`code ${styles.projectName}`}>
-                    <h3>{project.name}</h3>
-                    {project.ai ? <span className={`${styles.ai} code`} title={DICT.USEAI}>AI</span> : ''}    
+                    <h3>{project.name} {project.ai ? <sup className={`${styles.ai} code`} title={DICT.USEAI}>AI</sup> : ''}</h3>                        
                 </div>
                 <p className={styles.projectSummary}>{getProjectSummary(lang === 'EN' ? project.summaryEN : project.summaryPT)}</p>
                 {/* Project Stack List */}

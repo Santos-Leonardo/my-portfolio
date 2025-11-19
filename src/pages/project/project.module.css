@@ -8,8 +8,10 @@
 }
 
 .cover img {
+    
     width: 100%;
     max-width: 1200px;
+    border-radius: 10px;
 }
 
 .titleArea {
@@ -127,6 +129,10 @@
     gap: 60px;
     flex-direction: column;
     align-items: center;
+}
+
+.galleryBox.whiteBg {
+    background-color: #FFF;
 }
 
 .videoBox {

@@ -31,8 +31,41 @@ const PROJECTS = [
         link: '',
         github: '',
         ai: false,
-        photos: 4
+        photos: 3
     },
+    {
+        name: 'Core Integration Server',
+        shortName: 'core-integration-server',
+        summaryEN: 'I built a fully functional and scalable Node.js back-end designed to serve multiple front-end applications through a centralized REST API. The server acts as the core orchestrator, managing secure authentication, enforcing strict authorization rules, and ensuring that only permitted services and users can access specific resources. It integrates with several internal and external systems, including direct communication with the OpenAI API, enabling data exchange and complex operations while maintaining reliability and performance.\nThe server handles structured data processing, formatting, and storage for advanced transformations, content generation, and automated workflows. This data is then safely persisted in robust database layers.',
+        summaryPT: 'Desenvolvi um backend Node.js totalmente funcional e escalável, projetado para atender a múltiplas aplicações front-end por meio de uma API REST centralizada. O servidor atua como o orquestrador principal, gerenciando autenticação segura, aplicando regras de autorização rigorosas e garantindo que apenas serviços e usuários autorizados possam acessar recursos específicos. Ele se integra a diversos sistemas internos e externos, incluindo comunicação direta com a API da OpenAI, permitindo troca de dados e operações complexas, mantendo a confiabilidade e o desempenho.\nO servidor lida com o processamento, formatação e armazenamento de dados estruturados, geração de conteúdo e fluxos de trabalho automatizados. Esses dados são então armazenados com segurança em camadas robustas de banco de dados.',
+        stack: ['node', 'typescript', 'python', 'mysql', 'git'],
+        link: '',
+        github: '',
+        ai: true,
+        photos: 0
+    },
+        {
+        name: 'AI-Assisted Intelligence Server',
+        shortName: 'ai-server',
+        summaryEN: 'This Python server is designed to perform advanced tasks that require data intelligence, automation, and deep external integrations. By integrating with OpenAI models, the server performs intelligent summarization, classification, decision assistance, and content validation. It also connects directly to the SEC API, scrapes data from YouTube and Google News, and aggregates information from multiple web sources to support complex workflows.\nEquipped with robust document parsers and audio transcription tools, it processes videos, PDFs, articles, and regulatory documents, transforming them into structured, analyzable formats.',
+        summaryPT: 'Este servidor Python foi projetado para executar tarefas avançadas que exigem inteligência de dados, automação e integrações externas profundas. Ao integrar-se com modelos da OpenAI, o servidor realiza sumarizações, classificação, auxília tomada de decisões e validação de conteúdo. Ele também se conecta diretamente à API da SEC, extrai dados do YouTube e do Google News e agrega informações de múltiplas fontes da web para dar suporte a fluxos de trabalho complexos.\nEquipado com analisadores de documentos robustos e ferramentas de transcrição de áudio, ele processa vídeos, PDFs, artigos e documentos regulatórios, transformando-os em formatos estruturados e analisáveis.',
+        stack: ['python', 'git'],
+        link: '',
+        github: '',
+        ai: true,
+        photos: 0
+    },
+    {
+        name: 'REST API Server',
+        shortName: 'api-server',
+        summaryEN: 'I designed a dedicated API, responsible for exposing structured, secure, and high-performance endpoints to all internal and external consumers. It centralizes the logic for data access, transformation, validation, and response formatting, ensuring consistent communication across the entire ecosystem. Built with scalability in mind, the server manages rate-limiting, caching strategies, and fault-tolerant request handling to ensure optimal performance.\nBeyond serving requests, this API server is engineered with strict authentication and authorization flows, integrating cleanly with external providers, internal business logic layers, and multiple databases.',
+        summaryPT: 'Desenvolvi uma API dedicada, responsável por expor endpoints estruturados, seguros e de alto desempenho para todos os consumidores internos e externos. Ela centraliza a lógica de acesso, transformação, validação e formatação de respostas dos dados, garantindo uma comunicação consistente em todo o ecossistema. Construído com foco em escalabilidade, o servidor gerencia rate-limiting, cache e tratamento de requisições tolerante a falhas.\nAlém de atender às requisições, este servidor foi projetado com fluxos rigorosos de autenticação e autorização, integrando-se perfeitamente com provedores externos, camadas de lógica de negócios internas e múltiplos bancos de dados.',
+        stack: ['node', 'typescript', 'mysql', 'sqlite', 'git'],
+        link: '',
+        github: '',
+        ai: false,
+        photos: 0
+    }
 ];
 
 export default PROJECTS;

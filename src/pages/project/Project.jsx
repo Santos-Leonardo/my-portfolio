@@ -110,7 +110,7 @@ const Project = () => {
                 </div> : ''}
             </div>
             {/* Gallery */}
-            <section className={styles.galleryBox}>
+            <section className={`${styles.galleryBox} ${(videoURL.includes('undefined') && project.photos === 0) ? styles.whiteBg : ''}` }>
                 {/* Video */}
                 {!videoURL.includes('undefined') && <div className={styles.videoBox} onMouseOver={() => { setOnVideoHover(true); }} onMouseLeave={() => { setOnVideoHover(false); }}>
                     <video ref={videoTag} src={videoURL} disablePictureInPicture loop muted preload='auto'></video>
@@ -119,7 +119,7 @@ const Project = () => {
                     </div>}
                 </div>}
                 {/* Pictures */}
-                <div className={styles.gallery}>
+                {project.photos > 0 && <div className={styles.gallery}>
                     {[...Array(Math.floor(project.photos / 3))].map((_, i) => {
                         return  <div key={i+'column'} className={styles.galleryCollumn}>
                                     {[...Array(3)].map((_, j) => {
@@ -128,7 +128,7 @@ const Project = () => {
                                     })}
                                 </div>
                     })}
-                </div>
+                </div>}
                 <Button text={`${DICT.OTHERPROJECTS}`} onClick={() => { navigate('/projects')} } />
             </section>
             {/* Fullscreen Image */}

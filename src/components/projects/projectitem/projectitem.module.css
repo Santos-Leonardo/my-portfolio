@@ -56,18 +56,16 @@
     width: 100%;
 }
 
-.projectName {
-
-    display: flex;
-    gap: 8px;
-    align-items: center;
-}
-
 .ai {
 
-    margin-bottom: 12px;
-    font-size: var(--fsize2);
+    display: inline-block;
+    font-size: var(--fsize3);
     color: var(--c4);
+    background-color: var(--c9);
+    padding: 8px;
+    border-radius: 50%;
+    margin-top: 12px;
+    line-height: 15px;
 }
 
 .projectName h3 {

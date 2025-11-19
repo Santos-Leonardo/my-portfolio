@@ -42,7 +42,7 @@ const Education = () => {
                 <ul className={styles.colleges}>
                     {/* Full-Stack Development Certification */}
                     <li className={styles.degree}>
-                        <a href='https://lp.b7web.com.br/curso' target='_blank' className={styles.head}>
+                        <a href='https://b7web.com.br/' target='_blank' className={styles.head}>
                             <div>                
                                 <h3 className={`code ${styles.course}`}>{DICT.CERTIFICATION1}</h3>
                                 <p className={styles.issued}><strong>B7WEB</strong> | Jul 2023</p>
