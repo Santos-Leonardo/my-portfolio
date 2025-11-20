@@ -115,7 +115,7 @@ const Project = () => {
                 {!videoURL.includes('undefined') && <div className={styles.videoBox} onMouseOver={() => { setOnVideoHover(true); }} onMouseLeave={() => { setOnVideoHover(false); }}>
                     <video ref={videoTag} src={videoURL} disablePictureInPicture loop muted preload='auto'></video>
                     {onVideoHover && <div className={styles.restartVideo} onClick={restartVideo}>
-                        {!showRestartedMsg ? <img src={restartIcon} alt="Restart" /> : <span>{DICT.RESTARTED}</span>}
+                        {!showRestartedMsg ? <img src={restartIcon} alt="Restart" title='Restart' /> : <span>{DICT.RESTARTED}</span>}
                     </div>}
                 </div>}
                 {/* Pictures */}

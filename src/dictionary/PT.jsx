@@ -51,7 +51,7 @@ export const PT = {
         SERVICES: 'Serviços',
         WEBAPPS: 'Aplicativos Web Escaláveis',
         DESC1: 'Do conceito à implantação, crio aplicativos web de alto desempenho, seguros e fáceis de usar que crescem com o seu negócio',
-        OUTPUTS1: 'Sites, E-commerces, Landing pages, Web apps, Painéis de administração personalizados, Plataformas SaaS, Ferramentas internas, Dashboards, CMS, Sistemas de relatórios automatizados',
+        OUTPUTS1: 'Sites, E-commerces, Landing pages, Web apps, Painéis de administração personalizados, Plataformas SaaS, Ferramentas internas, Dashboards, CMS, Sistemas de relatórios automatizados, Manutenção de websites',
         API: 'Design de API & Integrações',
         DESC2: 'APIs eficientes e bem documentadas para conectar seus sistemas, serviços de terceiros e aplicativos móveis',
         OUTPUTS2: 'Implementação de servidores, APIs REST, Integrações de pagamento, Integrações de API externa, Sistemas de dados em tempo real',
@@ -107,6 +107,8 @@ export const PT = {
         USESAI: 'Este projeto tem uma IA',
         RESTARTED: 'Reiniciado',
         OTHERPROJECTS: 'Outros projetos',
-        READMORE: 'Continuar lendo'
+        READMORE: 'Continuar lendo',
+        BRINGINGVISIONS: 'Transformando visões em realidade',
+        PROJECTSLAUNCHED: 'projetos entregues. Muitos outros por vir'
     }
 }

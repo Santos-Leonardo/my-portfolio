@@ -13,14 +13,14 @@ const EXPERIENCES = [
         achievementsEN: [
             
             'Built an AI-powered, end-to-end Due Diligence automation system (background checks, deep-web searches, multi-source aggregation), reducing processing time from 1 day to 4 minutes and cutting costs by 83%.',
-            'Delivered a new modern company website and a scalable Node.js back-end with financial API integrations (including SEC), contributing to a 12% revenue increase.',
+            'Launched a modern company website and a robust, secure, and scalable back-end with financial API integrations, social-media sentiment analysis, and news scraping, driving a 12% increase in revenue.',
             'Developed a Python-based AI production service using OpenAI for document summarization, decision support, and automated PDF scraping and audio transcription.',
             'Executed full cloud migration, deployed Google Workspace, provisioned and secured VPS infrastructure, maintained site content/features, and handled domain analysis and branding assets.',
         ],
         achievementsPT: [
 
             'Criou um sistema para automatizar o processo de Due Diligence (verificações de antecedentes, buscas na web, agregação de múltiplas fontes de dados), baseado em IA, reduzindo a tarefa de 1 dia para 4 minutos e cortando custos em 83%.',
-            'Entregou um novo website moderno para a empresa e um back-end escalável em Node.js com integrações de APIs financeiras (incluindo a SEC), contribuindo para um aumento de 12% na receita.',
+            'Lançou um site moderno para a empresa e um back-end robusto, seguro e escalável com integrações de API financeira, análise de sentimento em mídias sociais e coleta de notícias, impulsionando um aumento de 12% na receita.',
             'Desenvolveu um serviço de IA baseado em Python usando a API da OpenAI para sumarização de documentos, suporte à decisão e extração automatizada de PDFs e transcrição de áudio.',
             'Executou uma migração completa para a nuvem, implementou o Google Workspace e toda a infraestrutura de um VPS. Manteve o conteúdo/recursos de websites e gerenciou a análise de domínio.'
         ]

@@ -51,7 +51,7 @@ export const EN = {
         SERVICES: 'Services',
         WEBAPPS: 'Scalable Web Applications',
         DESC1: 'From concept to deployment, I create high-performance, secure, and user-friendly web applications that grow with your business',
-        OUTPUTS1: 'Websites, E-commerces, Landing pages, Web apps, Custom admin panels, SaaS platforms, Internal tools, Dashboards, CMS, Automated reporting systems',
+        OUTPUTS1: 'Websites, E-commerces, Landing pages, Web apps, Custom admin panels, SaaS platforms, Internal tools, Dashboards, CMS, Automated reporting systems, Website maintenance',
         API: 'API Design & Integration',
         DESC2: 'Efficient and well-documented APIs to connect your systems, third-party services, and mobile apps',
         OUTPUTS2: 'Servers implementation, REST APIs, Payment integrations, External API integrations, Real-time data systems',
@@ -107,6 +107,8 @@ export const EN = {
         USESAI: 'This project has an AI built-in',
         RESTARTED: 'Restarted',
         OTHERPROJECTS: 'Other projects',
-        READMORE: 'Read more'
+        READMORE: 'Read more',
+        BRINGINGVISIONS: 'Bringing visions to life',
+        PROJECTSLAUNCHED: 'projects delivered. Plenty more ahead'
     }
 }

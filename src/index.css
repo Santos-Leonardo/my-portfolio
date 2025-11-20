@@ -62,18 +62,19 @@ p {
 
 /* Scroll Bar */
 *::-webkit-scrollbar {
+    
     width: 8px;
     border-radius: 5px;
-    background-color: #CCCCCC;
+    background-color: var(--c9);
 }
 
 *::-webkit-scrollbar-thumb {
     border-radius: 5px;;
-    background-color: #AAAAAA;
+    background-color: var(--c7);
 }
 
 *::-webkit-scrollbar-thumb:hover {
-    background-color: #999999;
+    background-color: var(--c6);
 }
 
 /* General App Classes */
