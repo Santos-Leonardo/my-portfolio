@@ -124,7 +124,7 @@ const Project = () => {
                         return  <div key={i+'column'} className={styles.galleryCollumn}>
                                     {[...Array(3)].map((_, j) => {
                                         let src = new URL(`../../assets/images/projects/${project.shortName}/${i}${j}.png`, import.meta.url).href;
-                                        return <img key={'img'+j} src={src} alt="Picture" onClick={() => { handleImageClick(src); }} />
+                                        {return !src.includes('undefined') ? <img key={'img'+j} src={src} alt="Picture" onClick={() => { handleImageClick(src); }} /> : '' }
                                     })}
                                 </div>
                     })}

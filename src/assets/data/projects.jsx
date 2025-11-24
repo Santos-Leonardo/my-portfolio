@@ -12,8 +12,8 @@ const PROJECTS = [
         photos: 9
     },
     {
-        name: 'GAIA',
-        shortName: 'gaia',
+        name: 'GAIA - SIG Web Platform',
+        shortName: 'gaia-sig-web-platform',
         summaryEN: 'GAIA is a revolutionary GIS web platform designed to transform how environmental data is analyzed and decisions are made. Engineered for real-time geospatial analysis, GAIA handles massive datasets with unmatched speed and precision, enabling scientists, researchers, and policymakers to act on critical environmental information.\nIts intuitive interface combines spatial analytics with robust visualization tools, offering interaction with shapefiles, marine detection data, vessel routes, dynamic environmental layers, and much more. GAIA also stands alone in its ability to assess human impact on whales and dolphins along the entire Brazilian coastline. This innovative proprietary functionality empowers users to predict risk zones, and support conservation strategies that directly influence policy-making and operational planning.\n I made the entire system from scratch, designing and building the interface and making the best UX decisions. I handle all the databases in cleaning, formatting, and effectively structuring them. Beyond implementing everything, I also came up with most of the system functionalities. The system is considered the best of its kind and was delivered more than a year ahead of schedule.',
         summaryPT: 'O Sistema GAIA é uma plataforma SIG web revolucionária, projetada para transformar a forma como os dados ambientais são analisados e as decisões são tomadas. Concebido para análise geoespacial em tempo real, o Sistema GAIA lida com enormes conjuntos de dados com velocidade e precisão incomparáveis, permitindo que cientistas, pesquisadores e políticos atuem com base em informações ambientais críticas.\nSua interface intuitiva combina análise espacial com ferramentas de visualização robustas, oferecendo interação com shapefiles, dados de detecção marinha, rotas de embarcações, camadas ambientais dinâmicas, dentre diversos outros recursos. O Sistema GAIA também se destaca por sua capacidade de avaliar o impacto humano sobre baleias e golfinhos ao longo de toda a costa brasileira. Essa funcionalidade proprietária e inovadora permite que os usuários prevejam zonas de risco e apoiem estratégias de conservação que influenciam diretamente a formulação de políticas e o planejamento operacional.\nFiz todo o sistema do zero, projetando e construindo a interface e tomando as melhores decisões de UX, assim como tudo relacionado ao banco de dados e, inclusive, dando ideias de funcionalidades. O sistema é considerado o melhor do gênero e foi entregue mais de um ano antes do previsto.',
         stack: ['angular', 'python', 'typescript', 'postgresql', 'mysql', 'sqlite', 'html', 'css', 'git'],
@@ -34,37 +34,15 @@ const PROJECTS = [
         photos: 9
     },
     {
-        name: 'CMS (Aqualie Institute)',
-        shortName: 'cms-aqualie-institute',
-        summaryEN: 'This CMS was designed to give the management team full control over their content without requiring technical knowledge. Built with simplicity and strong security practices in mind, the system provides a fast and intuitive interface where administrators can create, edit, and delete a wide range of content types. I implemented authentication layers, permission controls, input sanitization, and secure file handling to maintain system integrity.',
-        summaryPT: 'Este CMS foi projetado para dar à equipe de gestão controle total sobre o conteúdo, sem exigir conhecimento técnico. Construído com simplicidade e fortes práticas de segurança, o sistema oferece uma interface rápida e intuitiva onde os administradores podem criar, editar e excluir vários tipos de conteúdo. Implementei camadas de autenticação, controles de permissão, higienização de entrada e manipulação segura de arquivos para manter a integridade do sistema.',
-        stack: ['react', 'typescript', 'mysql', 'restapi', 'git'],
+        name: 'Green Cash - Wallet App',
+        shortName: 'green-cash-wallet-app',
+        summaryEN: 'I developed a large-scale mobile application (also fully functional on the web) for an environmental startup. As a wallet app, it supports bank transfers, transaction history, and the ability for users to donate their balance directly to partnered NGOs. Another feature of the platform is its QR-code scanning capability, which reads supermarket receipts and automatically identifies which purchased products are recyclable. The app then displays detailed information about recyclable items and calculates how much the user can earn by disposing of them correctly.\nIt integrates seamlessly with another product in the company’s ecosystem, enabling users to log in using an auto-generated secure code. The system also includes a secure onboarding flow, allowing users to create accounts, verify documents, update personal information, and manage authentication features such as email confirmation and password recovery. The app has support for multiple languages.',
+        summaryPT: 'Desenvolvi um aplicativo móvel de grande escala (também totalmente funcional na web) para uma startup ambiental. Como um aplicativo de carteira digital, ele suporta transferências bancárias, histórico de transações e a possibilidade de os usuários doarem seu saldo diretamente para ONGs parceiras. Outro recurso da plataforma é a capacidade de leitura de QR Code, que lê recibos de supermercado e identifica automaticamente quais produtos comprados são recicláveis. O aplicativo exibe então informações detalhadas sobre os itens recicláveis e calcula quanto o usuário pode ganhar ao descartá-los corretamente.\nEle se integra perfeitamente a outro produto do ecossistema da empresa, permitindo que os usuários façam login usando um código de segurança gerado automaticamente. O sistema também inclui um fluxo de integração seguro, permitindo que os usuários criem contas, verifiquem documentos, atualizem informações pessoais e gerenciem recursos de autenticação, como confirmação por e-mail e recuperação de senha. O app tem suporte a vários idiomas.',
+        stack: ['angular', 'typescript', 'mysql', 'html', 'node', 'css', 'git'],
         link: '',
         github: '',
         ai: false,
-        photos: 3
-    },
-    {
-        name: 'DIG Website',
-        shortName: 'dig-website',
-        summaryEN: 'I redevelopment a company’s website, replacing their old platform with a modern, high-performance system built from scratch. The website integrates real-time financial data through external APIs, displaying up-to-the-second information on stocks, cryptocurrencies, and commodities. I also implemented secure communication features, allowing users to directly contact the company’s board and easily subscribe to newsletters.\nThe project focused on usability, SEO, visual clarity, and trust. I designed and implemented a fully responsive interface with a professional, finance-oriented aesthetic.',
-        summaryPT: 'Redesenvolvi o website de uma empresa, substituindo sua antiga plataforma por um sistema moderno e de alto desempenho, construído do zero. O website integra dados financeiros em tempo real por meio de APIs externas, exibindo informações atualizadas sobre ações, criptomoedas e commodities. Também implementei recursos de comunicação segura, permitindo que os usuários entrem em contato diretamente com a diretoria da empresa e se inscrevam facilmente em newsletters.\nO projeto focou em usabilidade, SEO, clareza visual e confiança. Desenvolvi e implementei uma interface totalmente responsiva com uma estética profissional voltada para o setor financeiro.',
-        stack: ['angular', 'typescript', 'mysql', 'html', 'css', 'seo', 'git'],
-        link: 'https://www.investdig.com/',
-        github: '',
-        ai: false,
-        photos: 9
-    },
-    {
-        name: 'Offshore Transmitter',
-        shortName: 'offshore-transmitter',
-        summaryEN: 'The Offshore Transmitter is a Windows-based system engineered for real-time data transmission from oceanographic and acoustic monitoring devices. Purpose-built to support high-stakes scientific missions, it enables reliable streaming of environmental data directly from the field to research centers. By eliminating the traditional wait for physical data retrieval, Aqualie Live accelerated scientific operations at an unprecedented scale, reducing data processing time by over 60 days.\nI engineered and designed the entire system architecture—from the algorithm and data transmission method to the user interface and data handling workflows. This includes how data is stored, processed on the server, and retrieved through the API.',
-        summaryPT: 'O Transmissor Offshore é um sistema baseado em Windows, projetado para transmissão de dados em tempo real a partir de dispositivos de monitoramento oceanográfico e acústico. Desenvolvido especificamente para apoiar missões científicas de alto risco, ele permite o streaming confiável de dados ambientais diretamente do campo para os centros de pesquisa. Ao eliminar a tradicional espera pela recuperação física de dados, o Aqualie Live acelerou as operações científicas em uma escala sem precedentes, reduzindo o tempo de processamento de dados em mais de 60 dias.\nEu projetei toda a arquitetura do sistema - desde os algoritmos e o método de transmissão de dados até a interface do usuário, incluindo como os dados são armazenados, processados no servidor e recuperados através da API.',
-        stack: ['python', 'sqlite', 'mysql', 'git'],
-        link: '',
-        github: '',
-        ai: false,
-        photos: 3
+        photos: 6
     },
     {
         name: 'Core Integration Server',
@@ -78,15 +56,59 @@ const PROJECTS = [
         photos: 0
     },
     {
+        name: 'Offshore Transmitter',
+        shortName: 'offshore-transmitter',
+        summaryEN: 'The Offshore Transmitter is a Windows-based system engineered for real-time data transmission from oceanographic and acoustic monitoring devices. Purpose-built to support high-stakes scientific missions, it enables reliable streaming of environmental data directly from the field to research centers. By eliminating the traditional wait for physical data retrieval, Aqualie Live accelerated scientific operations at an unprecedented scale, reducing data processing time by over 60 days.\nI engineered and designed the entire system architecture—from the algorithm and data transmission method to the user interface and data handling workflows. This includes how data is stored, processed on the server, and retrieved through the API.',
+        summaryPT: 'O Transmissor Offshore é um sistema baseado em Windows, projetado para transmissão de dados em tempo real a partir de dispositivos de monitoramento oceanográfico e acústico. Desenvolvido especificamente para apoiar missões científicas de alto risco, ele permite o streaming confiável de dados ambientais diretamente do campo para os centros de pesquisa. Ao eliminar a tradicional espera pela recuperação física de dados, o Aqualie Live acelerou as operações científicas em uma escala sem precedentes, reduzindo o tempo de processamento de dados em mais de 60 dias.\nEu projetei toda a arquitetura do sistema - desde os algoritmos e o método de transmissão de dados até a interface do usuário, incluindo como os dados são armazenados, processados no servidor e recuperados através da API.',
+        stack: ['python', 'sqlite', 'mysql', 'git'],
+        link: '',
+        github: '',
+        ai: false,
+        photos: 3
+    },
+    {
         name: 'AI-Assisted Intelligence Server',
         shortName: 'ai-assisted-intelligence-server',
         summaryEN: 'This Python server is designed to perform advanced tasks that require data intelligence, automation, and deep external integrations. By integrating with OpenAI models, the server performs intelligent summarization, classification, decision assistance, and content validation. It also connects directly to the SEC API, scrapes data from YouTube and Google News, and aggregates information from multiple web sources to support complex workflows.\nEquipped with robust document parsers and audio transcription tools, it processes videos, PDFs, articles, and regulatory documents, transforming them into structured, analyzable formats.',
         summaryPT: 'Este servidor Python foi projetado para executar tarefas avançadas que exigem inteligência de dados, automação e integrações externas profundas. Ao integrar-se com modelos da OpenAI, o servidor realiza sumarizações, classificação, auxília tomada de decisões e validação de conteúdo. Ele também se conecta diretamente à API da SEC, extrai dados do YouTube e do Google News e agrega informações de múltiplas fontes da web para dar suporte a fluxos de trabalho complexos.\nEquipado com analisadores de documentos robustos e ferramentas de transcrição de áudio, ele processa vídeos, PDFs, artigos e documentos regulatórios, transformando-os em formatos estruturados e analisáveis.',
-        stack: ['python', 'git'],
+        stack: ['python', 'restapi', 'git'],
         link: '',
         github: '',
         ai: true,
         photos: 0
+    },
+    {
+        name: 'DIG Website',
+        shortName: 'dig-website',
+        summaryEN: 'I redevelopment a company’s website, replacing their old platform with a modern, high-performance system built from scratch. The website integrates real-time financial data through external APIs, displaying up-to-the-second information on stocks, cryptocurrencies, and commodities. I also implemented secure communication features, allowing users to directly contact the company’s board and easily subscribe to newsletters.\nThe project focused on usability, SEO, visual clarity, and trust. I designed and implemented a fully responsive interface with a professional, finance-oriented aesthetic.',
+        summaryPT: 'Redesenvolvi o website de uma empresa, substituindo sua antiga plataforma por um sistema moderno e de alto desempenho, construído do zero. O website integra dados financeiros em tempo real por meio de APIs externas, exibindo informações atualizadas sobre ações, criptomoedas e commodities. Também implementei recursos de comunicação segura, permitindo que os usuários entrem em contato diretamente com a diretoria da empresa e se inscrevam facilmente em newsletters.\nO projeto focou em usabilidade, SEO, clareza visual e confiança. Desenvolvi e implementei uma interface totalmente responsiva com uma estética profissional voltada para o setor financeiro.',
+        stack: ['angular', 'typescript', 'mysql', 'html', 'css', 'seo', 'git'],
+        link: 'https://www.investdig.com/',
+        github: '',
+        ai: false,
+        photos: 9
+    },
+    {
+        name: 'CMS (Aqualie Institute)',
+        shortName: 'cms-aqualie-institute',
+        summaryEN: 'This CMS was designed to give the management team full control over their content without requiring technical knowledge. Built with simplicity and strong security practices in mind, the system provides a fast and intuitive interface where administrators can create, edit, and delete a wide range of content types. I implemented authentication layers, permission controls, input sanitization, and secure file handling to maintain system integrity.',
+        summaryPT: 'Este CMS foi projetado para dar à equipe de gestão controle total sobre o conteúdo, sem exigir conhecimento técnico. Construído com simplicidade e fortes práticas de segurança, o sistema oferece uma interface rápida e intuitiva onde os administradores podem criar, editar e excluir vários tipos de conteúdo. Implementei camadas de autenticação, controles de permissão, higienização de entrada e manipulação segura de arquivos para manter a integridade do sistema.',
+        stack: ['react', 'typescript', 'mysql', 'restapi', 'git'],
+        link: '',
+        github: '',
+        ai: false,
+        photos: 3
+    },
+    {
+        name: 'EcoPoint System',
+        shortName: 'ecopoint-system',
+        summaryEN: 'The EcoPoint System automates and manages the full operational workflow of multiple recycling stations. Users authenticate using a secure code generated by another app in the company’s ecosystem. The system connects directly to a physical barcode scanner, allowing users to scan the packaging of products they purchased in supermarkets. Once scanned, the platform checks whether each item is already registered in the user’s account and validates eligibility for rewards.\nWhen a package is correctly returned, the system automatically credits a monetary reward to the user’s wallet in the companion app. It also guides users by showing exactly which recycling container each item belongs to, ensuring proper disposal.',
+        summaryPT: 'O Sistema de EcoPoint automatiza e gerencia todo o fluxo de trabalho de várias estações de reciclagem. Os usuários se autenticam usando um código de segurança gerado por outro aplicativo no ecossistema da empresa. O sistema se conecta diretamente a um leitor de código de barras físico, permitindo que os usuários escaneiem as embalagens dos produtos que compraram em supermercados. Após a leitura, a plataforma verifica se cada item já está cadastrado na conta do usuário e valida a elegibilidade para recompensas.\nQuando uma embalagem é devolvida corretamente, o sistema credita automaticamente uma recompensa monetária na carteira do usuário no aplicativo complementar. Ele também orienta os usuários, mostrando exatamente a qual contêiner de reciclagem cada item pertence, garantindo o descarte correto.',
+        stack: ['angular', 'typescript', 'mysql', 'html', 'node', 'css', 'git'],
+        link: '',
+        github: '',
+        ai: false,
+        photos: 3
     },
     {
         name: 'REST API Server',
@@ -100,8 +122,19 @@ const PROJECTS = [
         photos: 0
     },
     {
-        name: 'ATAALO',
-        shortName: 'ataalo',
+        name: 'Management System (Green Cash)',
+        shortName: 'management-system-green-cash',
+        summaryEN: 'I developed a management system for the company’s executive board, designed to centralize operational functions. The platform handles highly sensitive data, including internal messages, financial transactions, cashback operations, credit management, and day-to-day business activities. The system provides a structured, intuitive interface that keeps complex workflows organized and accessible, and was built with security as a core priority.',
+        summaryPT: 'Desenvolvi um sistema de gestão para a diretoria executiva da empresa, projetado para centralizar as funções operacionais. A plataforma lida com dados altamente sensíveis, incluindo mensagens internas, transações financeiras, operações de cashback, gestão de crédito e atividades comerciais do dia a dia. O sistema oferece uma interface estruturada e intuitiva que mantém fluxos de trabalho complexos organizados e acessíveis, e foi construído com a segurança como prioridade fundamental.',
+        stack: ['angular', 'typescript', 'mysql', 'html', 'node', 'css', 'git'],
+        link: '',
+        github: '',
+        ai: false,
+        photos: 3
+    },
+    {
+        name: 'ATAALO Website',
+        shortName: 'ataalo-website',
         summaryEN: 'With the website, travelers around the world could easily hire tourism guides. The entire website is crafted with a modern, visually immersive design, optimized for speed, simplicity, and an intuitive user-centered experience. Each guide and city has a personalized page filled with curated images, essential information, ratings, and recommended experiences.',
         summaryPT: 'Neste site, viajantes do mundo todo podiam contratar guias turísticos com facilidade. Todo o site foi desenvolvido com um design moderno e visualmente envolvente, otimizado para velocidade, simplicidade e uma experiência intuitiva e centrada no usuário. Cada guia e cidade possui uma página personalizada repleta de imagens selecionadas, informações essenciais, avaliações e experiências recomendadas.',
         stack: ['javascript', 'html', 'css', 'adobexd'],
@@ -109,6 +142,28 @@ const PROJECTS = [
         github: '',
         ai: false,
         photos: 0
+    },
+    {
+        name: 'Blog (Green Cash)',
+        shortName: 'blog-green-cash',
+        summaryEN: 'I built a simple, modern blog focused on environmental content, designed with a clear and user-friendly interface. The layout prioritizes readability, smooth navigation, and a clean visual structure to keep users engaged. Native carousels were implemented to highlight featured articles and important topics, enhancing the overall browsing experience. The blog has a section to users subscribe to the company\'s newsletter.',
+        summaryPT: 'Criei um blog simples e moderno focado em conteúdo ambiental, projetado com uma interface clara e intuitiva. O layout prioriza a legibilidade, a navegação fluida e uma estrutura visual limpa para manter os usuários engajados. Carrosséis nativos foram implementados para destacar artigos em destaque e tópicos importantes, aprimorando a experiência geral de navegação. O blog possui uma sessão para que os usuários se inscrevam na newsletter da empresa.',
+        stack: ['javascript', 'php', 'html', 'css'],
+        link: '',
+        github: '',
+        ai: false,
+        photos: 3
+    },
+    {
+        name: 'DevsBook',
+        shortName: 'devsbook',
+        summaryEN: 'I developed a small social media platform inspired by Facebook, built from the ground up to support core features. Users can create posts, like and comment on content, manage friend connections, upload images, and personalize their profile pages. The platform integrates with a database to handle user data, media uploads, and all social interactions.',
+        summaryPT: 'Desenvolvi uma pequena plataforma de mídia social inspirada no Facebook, construída do zero para suportar funcionalidades essenciais. Os usuários podem criar publicações, curtir e comentar conteúdo, gerenciar conexões de amigos, fazer upload de imagens e personalizar seus perfis. A plataforma integra-se a um banco de dados para gerenciar dados de usuários, uploads de mídia e todas as interações sociais.',
+        stack: ['php', 'html', 'css', 'mysql'],
+        link: '',
+        github: '',
+        ai: false,
+        photos: 3
     },
     {
         name: 'Draw Board For Kids',
@@ -119,7 +174,7 @@ const PROJECTS = [
         link: '',
         github: '',
         ai: false,
-        photos: 1
+        photos: 0
     }
 ];
 

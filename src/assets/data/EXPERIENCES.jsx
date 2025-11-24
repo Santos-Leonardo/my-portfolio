@@ -23,7 +23,8 @@ const EXPERIENCES = [
             'Lançou um site moderno para a empresa e um back-end robusto, seguro e escalável com integrações de API financeira, análise de sentimento em mídias sociais e coleta de notícias, impulsionando um aumento de 12% na receita.',
             'Desenvolveu um serviço de IA baseado em Python usando a API da OpenAI para sumarização de documentos, suporte à decisão e extração automatizada de PDFs e transcrição de áudio.',
             'Executou uma migração completa para a nuvem, implementou o Google Workspace e toda a infraestrutura de um VPS. Manteve o conteúdo/recursos de websites e gerenciou a análise de domínio.'
-        ]
+        ],
+        projects: ['Due Diligence System', 'Core Integration Server', 'AI-Assisted Intelligence Server', 'DIG Website']
     },
     {
         companyName: 'Instituto Aqualie',
@@ -50,7 +51,8 @@ const EXPERIENCES = [
             'Construiu um sistema de transmissão de dados em tempo real que acelerou as operações científicas, reduzindo o processamento de dados em mais de 30 dias.',
             'Integrou um modelo de aprendizado de máquina a um website para automatizar a classificação de espécies de golfinhos, reduzindo o trabalho manual de mais de 12 dias para 10 minutos e elevando as taxas de conversão de usuários para quase 90%.',
             'Arquitetou e implementou uma API REST de alto desempenho, um banco de dados relacional e um CMS completo - incluindo os designs. Também otimizou grandes conjuntos de dados geoespaciais, utilizou ciclos de feedback, atualizações de KPIs e testes A/B.'      
-        ]
+        ],
+        projects: ['GAIA - SIG Web Platform', 'Dolphin Classifier', 'Offshore Transmitter', 'CMS (Aqualie Institute)', 'REST API Server']
     },
     {
         companyName: 'PACT',
@@ -71,7 +73,8 @@ const EXPERIENCES = [
             
             'Desenvolveu um aplicativo móvel (incluindo todo o design) para uma startup com pagamentos seguros, leitura de recibos de supermercado, recursos de incentivo à reciclagem e painéis de usuário personalizados. Também projetou e construiu todo o back-end, banco de dados, estação de reciclagem e uma plataforma administrativa interna, atendendo a 100% dos KPIs.',
             'Criou uma documentação técnica abrangente e clara para os stakeholders e uma estratégia de funil de conversão.'
-        ]
+        ],
+        projects: ['Green Cash - Wallet App', 'EcoPoint System', 'Management System (Green Cash)', 'Blog (Green Cash)']
     },
     {
         companyName: 'Demola',
@@ -92,7 +95,8 @@ const EXPERIENCES = [
             
             'Contratado para um projeto de 6 meses para gerenciar uma equipe interdisciplinar no combate às fake news, desenvolvendo um produto inovador e uma estratégia de crescimento que analisa big data para avaliar a credibilidade de conteúdos.',
             'Conduziu pesquisas aprofundadas e diversas análises, entregando um relatório final abrangente que destacou a capacidade do sistema de reduzir a desinformação em 30% e possibilidades de monetização.'
-        ]
+        ],
+        projects: []
     },
     {
         companyName: 'Polytechnic Institute of Portalegre',
@@ -108,7 +112,8 @@ const EXPERIENCES = [
         ],
         achievementsPT: [            
             'Atuou como líder da equipe do Brasil durante a Semana Intercultural, assumindo a coordenação da equipe, delegando tarefas e planejando atividades. As responsabilidades incluíam organizar e entregar eventos focados em gastronomia, literatura e expressão artística, bem como fornecer atendimento ao cliente. O evento celebrou a diversidade cultural por meio de experiências envolventes e imersivas.'
-        ]
+        ],
+        projects: []
     },
     {
         companyName: 'ATAALO',
@@ -125,7 +130,8 @@ const EXPERIENCES = [
         ],
         achievementsPT: [            
             'Desenvolveu o website e a identidade visual de uma startup de turismo, contribuindo para a conquista de 3 prêmios internacionais e para o aumento do crescimento e da visibilidade da empresa.'
-        ]
+        ],
+        projects: ['ATAALO Website']
     },
     {
         companyName: 'Higher School of Technology and Management',
@@ -138,11 +144,12 @@ const EXPERIENCES = [
         workType: 'on-site (synchronous)',
         position: 'Software Engineering Intern',
         achievementsEN: [            
-            'Built a Tic-tac-toe game, a soccer management system, and a family expense management application.'
+            'Built a Tic-tac-toe game, a soccer management system, a family expense management application, and implemented AI algorithms to calculate the best route between cities and solve puzzles.'
         ],
         achievementsPT: [            
-            'Desenvolveu o jogo Tic-tac-toe, um sistema de gestão de futebol e um aplicativo de gestão de despesas familiares.'
-        ]
+            'Desenvolveu o jogo Tic-tac-toe, um sistema de gestão de futebol, um aplicativo de gestão de despesas familiares e implementou algoritimos de IA para calcular o melhor trajeto entre cidades e resolução de puzzles.'
+        ],
+        projects: []
     }
 ];
 

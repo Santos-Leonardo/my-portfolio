@@ -62,7 +62,8 @@ export const EN = {
     },
 
     experience: {
-        EXPERIENCE: "Experience"
+        EXPERIENCE: 'Experience',
+        VISITPROJECT: 'Visit Project'
     },
 
     awards: {

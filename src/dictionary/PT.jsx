@@ -62,7 +62,8 @@ export const PT = {
     },
 
     experience: {
-        EXPERIENCE: "Experiência"
+        EXPERIENCE: 'Experiência',
+        VISITPROJECT: 'Visitar Projeto'
     },
 
     awards: {

@@ -126,6 +126,30 @@
     }
 }
 
+.relatedProjects {
+
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.relatedProjects li {
+
+    cursor: pointer;
+    transition: all ease .4s;
+    color: var(--c3);
+    background-color: var(--g8);
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+
+.relatedProjects li:hover {    
+    color: var(--c4);
+    border: 1px solid var(--c4);
+}
+
 /* Responsive */
 @media (max-width: 800px) {
 
