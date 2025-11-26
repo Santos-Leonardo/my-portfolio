@@ -117,7 +117,7 @@ const PROJECTS = [
         summaryPT: 'Neste projeto, fui responsável pela implementação de todo o website, baseado em um design de interface já existente. A plataforma foi criada para uma pequena empresa local de fabricação de bicicletas artesanais e que oferece serviços de seguro. Meu papel foi traduzir o design em um website fluido, limpo e totalmente funcional. Esta é uma empresa fictícia, embora o projeto seja real.',
         stack: ['javascript', 'php', 'html', 'css', 'seo'],
         link: '',
-        github: '',
+        github: 'https://github.com/Santos-Leonardo/bikcraft',
         ai: false,
         photos: 9
     },
@@ -172,7 +172,7 @@ const PROJECTS = [
         summaryPT: 'Desenvolvi este projeto para validar e comparar um algoritmo de criptografia personalizado em diferentes tipos e tamanhos de dados. O sistema gera automaticamente pacotes de teste, aplica criptografia usando múltiplos algoritmos e, em seguida, realiza a descriptografia para avaliar a precisão, a velocidade e a confiabilidade. Isso possibilitou uma maneira estruturada e repetível de medir o desempenho e determinar qual abordagem oferece os melhores resultados para cada cenário.',
         stack: ['php', 'html', 'css'],
         link: '',
-        github: '',
+        github: 'https://github.com/Santos-Leonardo/cipher-wall',
         ai: false,
         photos: 0
     },
@@ -194,7 +194,7 @@ const PROJECTS = [
         summaryPT: 'Desenvolvi uma pequena plataforma de mídia social inspirada no Facebook, construída do zero para suportar funcionalidades essenciais. Os usuários podem criar publicações, curtir e comentar conteúdo, gerenciar conexões de amigos, fazer upload de imagens e personalizar seus perfis. A plataforma integra-se a um banco de dados para gerenciar dados de usuários, uploads de mídia e todas as interações sociais.',
         stack: ['php', 'html', 'css', 'mysql'],
         link: '',
-        github: '',
+        github: 'https://github.com/Santos-Leonardo/devs-book',
         ai: false,
         photos: 3
     },
@@ -205,7 +205,7 @@ const PROJECTS = [
         summaryPT: 'Criei um sistema de controle de produtividade projetado para ajudar os usuários a mensurar quantas horas dedicam ao trabalho, estudo ou qualquer outra tarefa. A interface permite a criação de um número ilimitado de registros, cada um com seu próprio nome e descrição, facilitando a organização das atividades e mantendo a clareza. O sistema permite iniciar, pausar e retomar os cronômetros. Ao concluir uma tarefa, o registro é salvo automaticamente no histórico, fornecendo aos usuários um registro claro de sua produtividade ao longo do tempo.',
         stack: ['javascript', 'html', 'css'],
         link: '',
-        github: '',
+        github: 'https://github.com/Santos-Leonardo/time-track',
         ai: false,
         photos: 3
     },
@@ -216,7 +216,7 @@ const PROJECTS = [
         summaryPT: 'Criei uma lousa de desenho interativa projetada para despertar a criatividade e a curiosidade nas crianças. O sistema oferece uma interface simples e intuitiva, onde as crianças podem desenhar livremente usando diversas cores.',
         stack: ['javascript', 'html', 'css'],
         link: '',
-        github: '',
+        github: 'https://github.com/Santos-Leonardo/draw-board',
         ai: false,
         photos: 0
     },
@@ -227,7 +227,7 @@ const PROJECTS = [
         summaryPT: 'Este é um jogo de perguntas simples focado em JavaScript, projetado para ajudar os usuários a testarem seus conhecimentos de forma divertida e interativa. A interface é intuitiva e fácil de usar, permitindo que os jogadores avancem por uma série de perguntas. Ao final do quiz, o sistema calcula e exibe a pontuação final.',
         stack: ['javascript', 'html', 'css'],
         link: '',
-        github: '',
+        github: 'https://github.com/Santos-Leonardo/js-quiz',
         ai: false,
         photos: 3
     }
